@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'web/data/jobs.json'
 KST = ZoneInfo('Asia/Seoul')
 COUNTRIES = {'KR':'Asia/Seoul','GB':'Europe/London','HK':'Asia/Hong_Kong','SG':'Asia/Singapore','PL':'Europe/Warsaw','JP':'Asia/Tokyo'}
-CAREER_FIELDS = ['title','company','country','category','level','status','deadlineDate','deadlineAt','deadlineKind','deadlineText','languageStatus','visaStatus','eligibility','evidence','applicationUrl']
+CAREER_FIELDS = ['recruitmentPosition','requiredExperience','title','company','country','category','level','status','deadlineDate','deadlineAt','deadlineKind','deadlineText','languageStatus','visaStatus','eligibility','evidence','applicationUrl']
 
 def utcnow(): return datetime.now(timezone.utc).isoformat()
 def clean(value): return re.sub(r'\s+', ' ', value or '').strip()

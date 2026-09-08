@@ -190,5 +190,29 @@
     "sourceId": "niceinfo",
     "sourceUrl": "https://nice.career.greetinghr.com/ko/o/234543",
     "company": "NICE평가정보"
+  },
+  {
+    "sourceId": "samsung-finance",
+    "sourceUrl": "https://www.samsungcareers.com/hr/?no=23009",
+    "id": "jasoseol-1d6ef139a4b22a95"
+  },
+  {
+    "sourceId": "samsung-finance",
+    "sourceUrl": "https://www.samsungcareers.com/hr/?no=23041",
+    "id": "jasoseol-714685355e2ae61f"
+  },
+  {
+    "sourceId": "samsung-finance",
+    "sourceUrl": "https://www.samsungcareers.com/hr/?no=23126"
+  },
+  {
+    "sourceId": "samsung-finance",
+    "sourceUrl": "https://www.samsungcareers.com/hr/?no=22985",
+    "id": "jasoseol-022a56043045562a"
+  },
+  {
+    "sourceId": "samsung-finance",
+    "sourceUrl": "https://www.samsungcareers.com/hr/?no=23090",
+    "id": "jasoseol-1d375c9ba828f975"
   }
 ]

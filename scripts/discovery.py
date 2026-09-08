@@ -36,6 +36,9 @@ def links_from(html,url,source):
 
 def discover(source,client,renderer,pages=3,watch=None,progress=lambda x:None):
     source={**source,'_raw':True};watch=watch or []
+    if source.get('adapter')=='samsung':
+        from samsung_finance import discover_samsung
+        return discover_samsung(source,client,renderer,watch,progress)
     if source['id']=='naver-15279069':
         # This is the same cafe, with a certificate board URL. Visit it, but don't count its
         # sidebar articles as another cafe's recruitment feed.

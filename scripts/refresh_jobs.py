@@ -49,6 +49,16 @@ def prepare_raw(raw, cure, cache):
     if len(raw['body'])>50000:raw['body']=raw['body'][:50000];raw['complete']=False
     return raw
 
+def revalidate_cached(job,cache):
+    if job.get('screeningVersion')==VERSION:return audit_existing(job)
+    file=cache/('raw-'+digest([job['sourceUrl'],job.get('roleKey','')])+'.json')
+    if job.get('screeningMode','rules')=='rules' and file.exists():
+        raw=json.loads(file.read_text());new=classify({**raw,'id':job['id']})
+        if new:
+            new['lastVerifiedAt']=job['lastVerifiedAt']
+            return new
+    return audit_existing(job)
+
 def run(pages=3, progress=lambda data:None, publish_result=False):
     cache=ROOT/'.collection-cache';cache.mkdir(exist_ok=True)
     with (cache/'refresh.lock').open('w') as lock:
@@ -139,8 +149,14 @@ def _run(pages,progress,publish_result,cache):
             if job['id'] in {j['id'] for j in previous['jobs']}:merged_incoming[key]=job
             elif existing['status']=='review' and job['status']=='open':job['id']=existing['id'];merged_incoming[key]=job
         else:merged_incoming[key]=job
+    # Prefer direct employer facts when an aggregator shares the same stable ID.
+    authoritative={s['id'] for s in sources if s.get('authoritative')}
+    by_id={}
+    for job in merged_incoming.values():
+        if job['id'] not in by_id or job['sourceId'] in authoritative:by_id[job['id']]=job
+    merged_incoming=by_id
     refreshed={j['id'] for j in merged_incoming.values()}
-    audited=[audit_existing(j) for j in previous['jobs'] if j['id'] not in refreshed]
+    audited=[revalidate_cached(j,cache) for j in previous['jobs'] if j['id'] not in refreshed]
     jobs,changes=merge(previous,list(merged_incoming.values())+audited,started)
     result={'schemaVersion':1,'generatedAt':utcnow(),'screeningMode':mode,'jobs':jobs,'sources':statuses,'changes':changes}
     new_changes=[c for c in changes if c['detectedAt']==started]

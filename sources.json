@@ -202,5 +202,22 @@
     "adapter": "public",
     "country": "JP",
     "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인"
+  },
+  {
+    "id": "samsung-finance",
+    "name": "삼성 금융·재무 공식 채용",
+    "url": "https://www.samsungcareers.com/hr/",
+    "adapter": "samsung",
+    "authoritative": true,
+    "companyPages": {
+      "삼성증권": "https://www.samsungcareers.com/subsid/detail/E40",
+      "삼성자산운용": "https://www.samsungcareers.com/subsid/detail/EF0",
+      "삼성생명": "https://www.samsungcareers.com/subsid/detail/E11",
+      "삼성화재": "https://www.samsungcareers.com/subsid/detail/E21",
+      "삼성카드": "https://www.samsungcareers.com/subsid/detail/E31",
+      "삼성디스플레이": "https://www.samsungcareers.com/subsid/detail/C90",
+      "삼성물산 패션부문": "https://www.samsungcareers.com/subsid/detail/E7A"
+    },
+    "coverageLimit": "금융계열사와 재무 모집 기업의 현재 공고·직무별 지원자격을 직접 확인합니다."
   }
 ]

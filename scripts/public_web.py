@@ -131,7 +131,7 @@ def extract(html,url,source):
             if not data.get('name'):continue
             raw['postingRecognized']=True
             from screening import category
-            role_names=[e.get('field','') for e in data.get('employments',[]) if category(e.get('field',''),'')]
+            role_names=[e.get('field','') for e in data.get('employments',[]) if category(e.get('field',''),data['name'])]
             raw.update(title=data.get('title') or raw['title'],company=data['name'],roles=' / '.join(role_names),
                        applicationUrl=data.get('employment_page_url',''),deadlineAt=data.get('end_time'),
                        deadlineDate=(data.get('end_time') or '')[:10] or None,startDate=(data.get('start_time') or '')[:10] or None)

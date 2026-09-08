@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from collect import clean, category_for, language_status, COUNTRIES, parse_period, digest, utcnow
 
-VERSION = '2026-09-08.6'
+VERSION = '2026-09-08.7'
 NON_POSTING = re.compile(r'교재|책\s*팝니다|수강|수험|인강\s*공유|강의\s*공유|판매합니다|자격증.*(?:판매|강의)')
 PREFERRED = re.compile(r'우대|preferred|advantage|a plus|not required', re.I)
 
@@ -12,20 +12,34 @@ def qualification_text(body):
     """Exclude organization histories and preference sections, not neighbouring requirements."""
     selected=[]; section='unknown'
     for line in body.replace('\u200b','').splitlines():
-        heading=re.sub(r'^\s*\d+[.)、]\s*','',clean(line)).strip('[]:： •ㆍ-')
-        if re.fullmatch(r'(?:지원\s*자격|자격\s*요건|필수\s*(?:사항|요건)|requirements|qualifications|필독\s*사항)(?:\s*(?:및|/)\s*우대\s*(?:사항|요건|조건))?(?:\s*[:：])?',heading,re.I):section='required';continue
+        heading=re.sub(r'^\s*\d+[.)、]\s*','',clean(line)).strip('[]:： •ㆍ-□■○')
+        label,separator,inline=heading.partition(':') if ':' in heading else heading.partition('：')
+        if re.fullmatch(r'(?:지원\s*자격|자격\s*요건|필수\s*(?:사항|요건)|requirements|qualifications|필독\s*사항)(?:\s*(?:및|/)\s*우대\s*(?:사항|요건|조건))?(?:\s*[:：])?',label.strip(),re.I):
+            section='required'
+            if separator:selected.append(inline)
+            continue
         if re.fullmatch(r'(?:우대\s*(?:사항|조건|요건)|preferred(?: qualifications)?|조직\s*소개|회사\s*소개|업무\s*내용|담당\s*업무|benefits)',heading,re.I):section='other';continue
         if section!='other':selected.append(line)
     return '\n'.join(selected)
 
 def experience_requirement(body):
+    fallback=''
     for line in re.split(r'[\n;,•ㆍ·]|\s+[/|]\s+|\s+(?=(?:Python|SQL|Excel)\b|학력|전공)|\s+및\s+|\s+and\s+(?=[A-Z][a-zA-Z+#]+\s+(?:preferred|우대))|(?<=[.!?])\s+', qualification_text(body)):
+        # Future onboarding/rotations are not prior professional experience.
+        if re.search(r'(?:입사|채용|합격)\s*(?:후|이후).{0,90}(?:교육|연수|수습|공정\s*경험|순환|체험|경험을\s*통해)',line) and not re.search(r'필수|보유자|경력자',line):continue
         if PREFERRED.search(line) or re.search(r'신입\s*(?:또는|및)|\d+\s*년\s*이하',line):continue
-        if re.search(r'경력(?:자|직)?\s*(?:필수|만\s*(?:지원|가능))|(?:관련|유관|동종).{0,12}경력(?:자|\s*보유자)|경력직\s*(?:채용|모집)',line):return clean(line)
+        if re.search(r'경력(?:자|직)?\s*(?:필수|만\s*(?:지원|가능))|(?:관련|유관|동종).{0,12}경력(?:자|\s*보유자)|경력직\s*(?:채용|모집)',line):fallback=fallback or clean(line)
         for match in re.finditer(r'(?<![\d~–-])(\d{1,2})\s*(?:[-–~]\s*\d{1,2}\s*)?(?:년|years?)\s*\+?',line,re.I):
             if int(match[1])<1:continue
             if re.search(r'경력|경험|실무|관련\s*(?:업무|분야)|experience|at least|minimum',line,re.I):return clean(line)
-    return ''
+    return fallback
+
+def position_for(body):
+    match=re.search(r'(?:모집\s*직위|모집\s*직급|채용\s*직위|채용\s*직급|직급|seniority level)\s*[:：]?\s*([^\n]{1,70})',body,re.I)
+    return clean(match[1]) if match else ''
+
+def senior_position(position):
+    return bool(re.search(r'대리|과장|차장|부장|팀장|실장|본부장|수석|책임|시니어|senior|vice president|director|principal|head of',position,re.I))
 
 def career_only(title):
     if re.search(r'신입|인턴|intern|new grad|경력\s*무관|무경력',title,re.I):return False
@@ -39,7 +53,7 @@ def audit_existing(job):
     if NON_POSTING.search(job['title']):reason='채용 공고가 아닌 학습·판매 게시물'
     if re.search(r'\[\s*마감\s*\]',job['title']):return {**job,'status':'closed','evidence':'제목에 접수 마감 명시'}
     if reason:return {**job,'status':'excluded','evidence':reason,'screeningVersion':VERSION}
-    if job.get('screeningVersion')!=VERSION or job.get('status') in ('open','upcoming'):return {**job,'status':'review','evidence':'심사 규칙 변경: 원문 재수집·직무별 자격 재검증 대기'}
+    if job.get('screeningVersion')!=VERSION:return {**job,'status':'review','evidence':'심사 규칙 변경: 원문 재수집·직무별 자격 재검증 대기'}
     return job
 
 def category(title, body):
@@ -47,6 +61,8 @@ def category(title, body):
     found = category_for(title, body)
     if found: return found
     if re.search(r'평가모형|신용평가.*(?:분석|컨설팅)',title): return '금융리스크'
+    if '계리' in title: return '금융리스크'
+    if '투자자산관리' in title: return '자산운용·자산배분'
     if '데이터 애널리스트' in title and re.search(r'신용|재무|금융',body): return '금융리스크'
     if re.search(r'기업분석|산업분석|equity research|\bRA\b', title, re.I): return '기업·산업 리서치'
     if re.search(r'리서치|research associate',title,re.I) and re.search(r'금융|주식|투자|증권|자산|equity|investment|asset|portfolio',title+' '+body,re.I):return '기업·산업 리서치'
@@ -97,6 +113,8 @@ def classify(raw, ai=None):
     if mixed_title and not role_requirements:
         block=re.search(r'\[(?:채용전환형\s*)?(?:인턴|신입)[^\]\n]{0,25}\]\s*([^\[]+)',body)
         if block and category(block[1],block[1]):role_requirements=block[1];level='인턴' if '인턴' in block[0] else '신입'
+    position=raw.get('recruitmentPosition') or position_for(role_requirements or body)
+    if not position and re.search(r'3급\s*신입',title):position='3급 신입사원'
     exp=experience_requirement(role_requirements or body)
     lang=language_status(role_requirements or body,country)
     # Mixed recruitments need a verified role-specific section; title alone cannot override requirements.
@@ -127,6 +145,7 @@ def classify(raw, ai=None):
     if ai and (ai.get('decision')=='exclude' or ai.get('requiredLocalLanguage')):
         status='excluded';reason=ai.get('reason') or 'AI 심사에서 필수 조건 불일치 확인'
     if raw.get('excludeReason'):status='excluded';reason=raw['excludeReason']
+    if senior_position(position):status='excluded';reason='모집 직위 불일치: '+position+(' · 필수 경력: '+exp if exp else '')
     if NON_POSTING.search(title):status='excluded';reason='채용 공고가 아닌 학습·판매 게시물'
     start,end=parse_period(raw.get('period',''))
     start=raw.get('startDate') or start
@@ -163,7 +182,7 @@ def classify(raw, ai=None):
             'roleKey':raw.get('roleKey',''),'sourceId':raw['sourceId'],'sourceUrl':raw['sourceUrl'],'applicationUrl':raw.get('applicationUrl',''),
             'title':title+(' · '+roles if roles and roles not in title else ''),'company':company,
             'country':country,'category':cat,'section':raw.get('section') or ('corporate' if cat=='기업 재무·전략투자' else 'finance'),
-            'level':level,'eligibility':eligibility,'languageStatus':lang,'visaStatus':'국내 채용' if country=='KR' else '취업허가·스폰서십은 개인 조건과 원문 확인 필요',
+            'recruitmentPosition':position,'requiredExperience':exp,'level':level,'eligibility':eligibility,'languageStatus':lang,'visaStatus':'국내 채용' if country=='KR' else '취업허가·스폰서십은 개인 조건과 원문 확인 필요',
             'postedAt':raw.get('postedAt',''),'startDate':start,'deadlineDate':end,'deadlineAt':deadline_at,
             'deadlineTimezone':COUNTRIES[country],'deadlineKind':'date' if end else 'rolling' if rolling else 'unknown',
             'deadlineText':raw.get('period') or ('채용 시 마감' if rolling else '마감일 미공개'),
