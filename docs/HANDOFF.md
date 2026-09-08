@@ -11,6 +11,7 @@
 - 금투협 검색·상세와 WorldQuant/Jane Street 공식 API 수집. 소스별 실패 보존, 공개 변경 기록.
 - 일일 Codex 자동 작업 등록: 앱 자동화 ID `05`, 매일 오전 5시 Asia/Seoul. 실제 실행에는 로컬 호스트 가용성이 필요하다.
 - SSH를 통한 `chososo/get_job`의 main 업로드 성공. HTTPS 자격 증명은 사용할 수 없지만 SSH 업로드는 정상이다.
+- GitHub Pages 배포 성공: https://chososo.github.io/get_job/ (Actions 실행 34209264699).
 
 ## 실제 검증 범위
 
@@ -20,7 +21,6 @@
 
 ## 아직 확인 또는 확장할 부분
 
-- 첫 GitHub Pages 배포 성공과 공개 URL. Settings → Pages → Source: GitHub Actions가 필요하다. SSH 업로드 권한으로 Pages 관리 REST API에 로그인할 수는 없다.
 - 사용자의 OpenAI API 키 설정과 실사용 요청. 키를 대화나 GitHub로 받지 않는다.
 - 소스 20개 중 3개 자동 어댑터. 나머지 17개는 별도 웹 확인 또는 어댑터 확장이 필요하다. 전체 인터넷/모든 카페 게시판 완전 수집은 아니다.
 - 현지어·학위·졸업연도·비자 조건은 공고마다 확인해야 한다. 국가와 인턴 제목만으로 지원 자격을 확정하지 않는다.

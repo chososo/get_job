@@ -20,10 +20,15 @@ def run(configure=False):
         elif r.ok and r.json().get('build_type')!='workflow':r=s.put(base+'/pages',json={'build_type':'workflow'},timeout=30)
     print('Pages API:',r.status_code)
     if r.ok:print(json.dumps({k:r.json().get(k) for k in ('html_url','status','build_type')},ensure_ascii=False))
-    if not r.ok:raise RuntimeError('Pages 설정을 확인하세요. HTTP '+str(r.status_code))
+    if not r.ok and configure:raise RuntimeError('Pages 설정을 확인하세요. HTTP '+str(r.status_code))
+    if not r.ok:print('인증 없는 Pages 관리 API 응답만으로 공개 여부를 판단할 수 없습니다.')
     runs=s.get(base+'/actions/workflows/pages.yml/runs',params={'per_page':1},timeout=30)
     if runs.ok:
         for item in runs.json().get('workflow_runs',[]):print(json.dumps({k:item.get(k) for k in ('id','status','conclusion','html_url','head_sha')},ensure_ascii=False))
+    for path in ('','app.js','styles.css','data/jobs.json'):
+        public=s.get('https://chososo.github.io/get_job/'+path,timeout=30)
+        print('Public',path or '/',public.status_code)
+        public.raise_for_status()
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--configure',action='store_true');args=p.parse_args()
     try:run(args.configure)
