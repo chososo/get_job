@@ -12,7 +12,7 @@ def listing_urls(source,pages):
     sid=source['id']
     if sid=='fcb':return [f'https://www.fcbfi.org/blog/categories/job-postings'+(f'/page/{p}' if p>1 else '') for p in range(1,pages*3+1)]
     if sid=='jasoseol':return [f'https://jasoseol.com/search?division=1&page={p}' for p in range(1,pages+1)]
-    if sid=='superookie':return ['https://www.superookie.com/jobs?search='+quote(k) for k in ['퀀트','운용','리스크','신입']]
+    if sid=='superookie':return ['https://www.superookie.com/jobs/search?q='+quote(k) for k in ['퀀트','운용','리스크','신입']]
     if sid=='wanted':return ['https://www.wanted.co.kr/wd/221698','https://www.wanted.co.kr/wdlist/508','https://www.wanted.co.kr/search?query='+quote('퀀트')+'&tab=position']
     if sid=='jobkorea':return ['https://www.jobkorea.co.kr/Search/?stext='+quote(k) for k in ['퀀트','자산운용 인턴','증권 신입','리스크']]
     if sid=='linkedin':return ['https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=quantitative%20intern&location='+quote(place)+'&f_E=1%2C2&start=0' for place in ['United Kingdom','Hong Kong','Singapore','Poland','Japan']]
@@ -26,6 +26,8 @@ def links_from(html,url,source):
         href=urljoin(url,a['href']);label=clean(a.get_text(' ',strip=True))
         if urlsplit(href).scheme not in ('http','https'):continue
         if 'cafe.naver.com' in url and re.search(r'menus/\d+',href) and re.search(r'채용|인턴|신입|금융|증권|운용|대기업',label):boards[href]=label
+        company_filter={'niceinfo':'NICE평가정보','nicepni':'NICE피앤아이'}.get(source['id'])
+        if company_filter and company_filter not in re.sub(r'\s+','',label):continue
         if DETAIL.search(href):
             if source['id'] in ('jasoseol','catch','wanted','naver-kkbjob','naver-15279069') or RELEVANT.search(label):links[canonical(href)]=label
         elif urlsplit(href).hostname==urlsplit(url).hostname and re.search(r'채용|careers|recruit|채용공고',label,re.I):boards[href]=label
@@ -78,7 +80,8 @@ def discover(source,client,renderer,pages=3,watch=None,progress=lambda x:None):
             raw['curation']=hint if hint.get('verification') else None
             if hint.get('country'):raw['country']=hint['country']
             if not raw['complete'] and not raw.get('needsAttachment'):failed+=1
-            result.append(raw);details+=1
+            from greeting_roles import split_roles
+            result.extend(split_roles(raw));details+=1
         except Exception:failed+=1
     return result,{'lists':lists,'details':details,'failed':failed,'truncated':truncated,
                   'reason':f'목록 {lists}개 · 상세 {details}개 확인, 접근·본문 확인 실패 {failed}개. 목록 최대 {max_lists}개 / 상세 최대 {max_details}개.'}

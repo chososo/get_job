@@ -24,7 +24,7 @@ class EligibilityTests(unittest.TestCase):
         self.assertEqual(j['status'],'review')
         j=classify(raw(title='퀀트 신입 및 경력',body='경력: 관련 업무 10년 이상',roleRequirements='신입: 대졸 예정',rolling=True))
         self.assertEqual(j['status'],'open')
-        j=classify(raw(title='퀀트 경력직,채용전환형 인턴 동시 모집',body='[경력직 지원 자격]\n경력 2년 이상\n[채용전환형 인턴]\n지원 자격: 대학 졸업예정\n[근무]\n채용 시 마감'))
+        j=classify(raw(title='퀀트 경력직,채용전환형 인턴 동시 모집',body='[경력직 지원 자격]\n경력 2년 이상\n[채용전환형 인턴]\n담당 업무: 퀀트 연구\n지원 자격: 대학 졸업예정\n[근무]\n채용 시 마감'))
         self.assertEqual(j['status'],'open');self.assertNotIn('2년',j['eligibility'])
     def test_language_required_not_preferred(self):
         self.assertEqual(classify(raw(body='중국어 능력 필수\n채용 시 마감'))['status'],'excluded')

@@ -185,5 +185,10 @@
       "마케팅"
     ],
     "excludeReason": "WM·연금 마케팅과 지원 중심으로 현재 희망 분야에서 제외"
+  },
+  {
+    "sourceId": "niceinfo",
+    "sourceUrl": "https://nice.career.greetinghr.com/ko/o/234543",
+    "company": "NICE평가정보"
   }
 ]

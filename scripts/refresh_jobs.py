@@ -6,7 +6,7 @@ from datetime import datetime, timedelta, timezone
 from collect import merge, utcnow, digest, canonical
 from public_web import Client, Renderer, read_images
 from discovery import discover
-from screening import classify, category, VERSION
+from screening import classify, category, VERSION, audit_existing
 import ai_screen
 import routine_sites
 
@@ -89,11 +89,12 @@ def _run(pages,progress,publish_result,cache):
                 source,rows,info=future.result();kept=excluded=reviewed=0
                 for raw in rows:
                     old=old_by_url.get(canonical(raw['sourceUrl']))
-                    if old:raw['id']=old['id']
+                    if old and not raw.get('roleKey'):raw['id']=old['id']
                     cure=cure_by_url.get(canonical(raw['sourceUrl']))
                     possible_ai_candidate=mode=='astra' and re.search(r'인턴|신입|intern|graduate|research|analyst',raw['title'],re.I) and re.search(r'금융|투자|파생|ETF|quant|investment|portfolio|risk',raw['body'],re.I)
                     if not old and not cure and not category(raw['title']+' '+raw.get('roles',''),raw['body']) and not possible_ai_candidate:continue
                     raw=prepare_raw(raw,cure,cache)
+                    atomic(cache/('raw-'+digest([raw['sourceUrl'],raw.get('roleKey','')])+'.json'),{**raw,'collectedAt':started})
                     if raw.get('needsAttachment') and not raw.get('complete'):info['failed']+=1
                     judgment=None;api_failed=False
                     if mode=='astra':
@@ -113,8 +114,8 @@ def _run(pages,progress,publish_result,cache):
                     if api_failed:
                         if job['status'] in ('open','upcoming'):job['status']='review'
                         job.update(screeningMode='astra-error',evidence='Astra 심사 실패 · '+ai_errors[-1])
-                    if job['status']=='closed' and not old:continue
-                    if job['status']=='excluded' and not old:excluded+=1;continue
+                    if job['status']=='closed' and not old and not cure:continue
+                    if job['status']=='excluded' and not old and not cure:excluded+=1;continue
                     incoming.append(job)
                     if job['status']=='excluded':excluded+=1
                     elif job['status']=='review':reviewed+=1
@@ -132,12 +133,15 @@ def _run(pages,progress,publish_result,cache):
     for job in incoming:
         url=canonical(job.get('applicationUrl',''))
         key=url if re.search(r'jobnoticeSn=|recruit_default\.asp|jobs-view\?seq=|/jobs/\d+/',url) else canonical(job['sourceUrl'])
+        if job.get('roleKey'):key+='::'+job['roleKey']
         if key in merged_incoming:
             existing=merged_incoming[key]
             if job['id'] in {j['id'] for j in previous['jobs']}:merged_incoming[key]=job
             elif existing['status']=='review' and job['status']=='open':job['id']=existing['id'];merged_incoming[key]=job
         else:merged_incoming[key]=job
-    jobs,changes=merge(previous,list(merged_incoming.values()),started)
+    refreshed={j['id'] for j in merged_incoming.values()}
+    audited=[audit_existing(j) for j in previous['jobs'] if j['id'] not in refreshed]
+    jobs,changes=merge(previous,list(merged_incoming.values())+audited,started)
     result={'schemaVersion':1,'generatedAt':utcnow(),'screeningMode':mode,'jobs':jobs,'sources':statuses,'changes':changes}
     new_changes=[c for c in changes if c['detectedAt']==started]
     report={'generatedAt':result['generatedAt'],'mode':mode,'jobs':len(jobs),'new':sum(c['kind']=='new' for c in new_changes),

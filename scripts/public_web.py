@@ -93,7 +93,7 @@ def extract(html,url,source):
                 raw['postingRecognized']=True
                 raw['title']=obj.get('title') or raw['title']
                 desc=obj.get('description','')
-                if isinstance(desc,str) and len(desc)>100:raw['body']=BeautifulSoup(desc,'html.parser').get_text('\n',strip=True)+'\n'+text
+                if isinstance(desc,str) and len(desc)>100:raw['body']=BeautifulSoup(desc,'html.parser').get_text('\n',strip=True)
                 org=obj.get('hiringOrganization') or {}
                 if isinstance(org,dict):raw['company']=org.get('name') or raw['company']
                 locations=obj.get('jobLocation') or []
@@ -104,7 +104,7 @@ def extract(html,url,source):
                     if not isinstance(address,dict):continue
                     code=address.get('addressCountry','')
                     if isinstance(code,dict):code=code.get('name','')
-                    code={'South Korea':'KR','Korea':'KR','대한민국':'KR','United Kingdom':'GB','UK':'GB','Hong Kong':'HK','Singapore':'SG','Poland':'PL','Japan':'JP','United States':'US'}.get(code,code)
+                    code={'South Korea':'KR','Korea':'KR','대한민국':'KR','한국':'KR','Korea, Republic of':'KR','United Kingdom':'GB','UK':'GB','Hong Kong':'HK','Singapore':'SG','Poland':'PL','Japan':'JP','United States':'US'}.get(code,code)
                     if code:codes.append(code)
                 if codes:raw['country']=next((c for c in codes if c in COUNTRIES),codes[0]);raw['locationRecognized']=True
                 raw['employment']=str(obj.get('employmentType') or '')
@@ -167,7 +167,6 @@ def extract(html,url,source):
             raw.update(title=clean(title.get_text()),company='현대모비스',body=soup_text(body),section='corporate',period=clean(period.get_text()) if period else '')
             top=soup.select_one('.view-info01')
             if top:raw['employment']=clean(top.get_text())
-            if '신입' in text:raw['employment']='신입'
             if period:
                 m=re.search(r'(20\d{2}-\d{2}-\d{2})\s+(\d{2}:\d{2})',period.get_text())
                 if m:raw.update(deadlineDate=m[1],deadlineAt=m[1]+'T'+m[2]+':00+09:00')
@@ -190,6 +189,9 @@ def extract(html,url,source):
         raw['accepting']=bool(soup.select_one('a[data-tracking-control-name*="apply"],button[data-tracking-control-name*="apply"]'))
         for pattern,c in [('Singapore','SG'),('Hong Kong','HK'),('London','GB'),('Poland|Warsaw|Krak.w','PL'),('Tokyo|Japan','JP')]:
             if not raw.get('locationRecognized') and re.search(pattern,text[:3000],re.I):raw['country']=c;break
+    if 'greetinghr.com' in url:
+        from greeting_roles import extract_greeting
+        extract_greeting(raw,objects,text)
     images=[]
     for img in soup.select('img'):
         src=urljoin(url,img.get('src',''))

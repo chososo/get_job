@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from collect import ROOT,OUTPUT,COUNTRIES,merge,utcnow
 
-FIELDS={'id','sourceId','sourceUrl','applicationUrl','title','company','category','country','level','eligibility','languageStatus','visaStatus','postedAt','startDate','deadlineDate','deadlineAt','deadlineTimezone','deadlineKind','deadlineText','status','evidence','lastVerifiedAt','section','screeningMode','screeningVersion'}
+FIELDS={'roleKey','id','sourceId','sourceUrl','applicationUrl','title','company','category','country','level','eligibility','languageStatus','visaStatus','postedAt','startDate','deadlineDate','deadlineAt','deadlineTimezone','deadlineKind','deadlineText','status','evidence','lastVerifiedAt','section','screeningMode','screeningVersion'}
 CATEGORIES={'퀀트 리서치','자산운용·자산배분','ETF·인덱스','금융리스크','파생상품평가','기업·산업 리서치','기업 재무·전략투자'}
 def validate(job):
     if not isinstance(job,dict) or set(job)-FIELDS:raise ValueError('Only public job fields are allowed')

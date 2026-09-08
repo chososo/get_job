@@ -1,5 +1,5 @@
 """Loopback helper for public collection and explicitly approved writing requests."""
-import argparse, getpass, json, os, secrets, threading
+import argparse, getpass, json, os, secrets, threading, subprocess, sys
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -20,12 +20,20 @@ def configure():
 
 def collection(payload):
     global STATE
-    from refresh_jobs import run
     def update(value):
         global STATE
         with LOCK:STATE=value
-    try:run(progress=update,publish_result=True)
-    except Exception as exc:update({'state':'error','message':str(exc) if isinstance(exc,ValueError) else '수집 실행 오류. 기존 공고를 유지합니다.'})
+    # Each click starts the current on-disk rules, even when this helper stays open.
+    try:
+        command=[sys.executable,str(ROOT/'scripts/refresh_jobs.py'),'--publish']
+        with subprocess.Popen(command,cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,text=True) as child:
+            for line in child.stdout:
+                try:value=json.loads(line)
+                except ValueError:continue
+                if isinstance(value,dict) and value.get('state'):update(value)
+            if child.wait()!=0 or STATE.get('state')!='complete':
+                update({'state':'error','message':'수집 실행 실패 또는 다른 수집 실행 중입니다. 기존 공고는 유지됩니다.'})
+    except Exception:update({'state':'error','message':'수집 실행 오류. 기존 공고를 유지합니다.'})
 
 class Handler(SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
