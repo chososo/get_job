@@ -13,7 +13,7 @@ def session():
     s=requests.Session();s.headers.update({'Authorization':'Bearer '+fields['password'],'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'})
     return s
 def run(configure=False):
-    s=session();base='https://api.github.com/repos/'+REPO
+    s=session() if configure else requests.Session();base='https://api.github.com/repos/'+REPO
     r=s.get(base+'/pages',timeout=30)
     if configure:
         if r.status_code==404:r=s.post(base+'/pages',json={'build_type':'workflow'},timeout=30)

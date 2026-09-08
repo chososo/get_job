@@ -2,7 +2,7 @@ name: Publish Career Desk
 on:
   push:
     branches: [main]
-    paths: ['web/**', 'scripts/build.py', '.github/workflows/pages.yml']
+    paths: ['web/**', 'scripts/build.py', 'package.json', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read

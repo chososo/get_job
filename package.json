@@ -1,0 +1,11 @@
+{
+  "name": "quant-career-desk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/domain.test.mjs",
+    "build": "python3 scripts/build.py",
+    "start": "python3 scripts/local_server.py"
+  }
+}
