@@ -4,7 +4,7 @@ import shutil
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-PUBLIC_FILES=['index.html','styles.css','app.js','modules/domain.js','modules/vault.js','modules/agent-tools.js','modules/sources.js','data/jobs.json','data/latest-run.json']
+PUBLIC_FILES=['index.html','styles.css','app.js','modules/domain.js','modules/vault.js','modules/agent-tools.js','modules/sources.js','modules/collector.js','data/jobs.json','data/latest-run.json']
 def build():
     destination=ROOT/'dist'
     if destination.is_symlink():raise ValueError('dist cannot be a symlink')

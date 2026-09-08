@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' http://127.0.0.1:8765 http://localhost:8765; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="description" content="퀀트·자산운용 주니어 공고와 지원 일정, 로컬 지원서 보관함">
   <title>Quant Career Desk · 나의 지원 노트</title>
   <link rel="stylesheet" href="./styles.css">
@@ -17,6 +17,7 @@
     <div class="nav-label">OPPORTUNITIES</div>
     <nav aria-label="공고와 일정">
       <a href="#domestic">국내 공고 <span>KR</span></a>
+      <a href="#corporate">대기업 · 재무·전략 <span>＋</span></a>
       <a href="#overseas">해외 공고 <span>GL</span></a>
       <a href="#calendar">지원 캘린더 <span>▦</span></a>
       <a href="#favorites">중요 공고 <span>☆</span></a>
@@ -33,6 +34,7 @@
   </aside>
   <div class="workspace">
     <header class="topbar"><span id="today"></span><div><span id="vault-status">보관함 잠김</span><button id="refresh" class="small">공고 새로고침</button></div></header>
+    <div id="collection-progress" class="notice collection-progress" role="status" aria-live="polite" hidden></div>
     <main id="main" tabindex="-1"><div class="empty">공고를 불러오고 있습니다.</div></main>
     <footer>공고는 원문에서 최종 확인하세요. 개인 자료는 GitHub에 전송되지 않습니다.</footer>
   </div>

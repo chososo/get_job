@@ -1,4 +1,4 @@
-export const categories = ['퀀트 리서치','자산운용·자산배분','ETF·인덱스','금융리스크','파생상품평가'];
+export const categories = ['퀀트 리서치','자산운용·자산배분','ETF·인덱스','금융리스크','파생상품평가','기업·산업 리서치','기업 재무·전략투자'];
 export const countries = {KR:'대한민국',GB:'영국',HK:'홍콩',SG:'싱가포르',PL:'폴란드',JP:'일본'};
 export const statusNames = {open:'지원 가능',review:'조건 확인 필요',closed:'마감',upcoming:'접수 예정',excluded:'대상 제외'};
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

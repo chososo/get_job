@@ -1,0 +1,189 @@
+[
+  {
+    "sourceId": "kofia",
+    "sourceUrl": "https://www.kofia.or.kr/brd/m_96/view.do?seq=41952",
+    "company": "LS증권",
+    "title": "2026 하반기 신입 (채용전제형 인턴) 공개채용",
+    "roles": "리스크관리 / 리서치 기업분석 RA",
+    "verification": [
+      "신입",
+      "리스크"
+    ],
+    "id": "kofia-41952",
+    "deadlineDate": "2026-09-13",
+    "deadlineAt": "2026-09-13T23:59:00+09:00",
+    "applicationUrl": "https://ls-sec.recruiter.co.kr/app/jobnotice/view?jobnoticeSn=265005&systemKindCode=MRS2",
+    "eligibility": "학사 기졸업·2027년 2월 졸업예정. 2026년 11~12월 8주 인턴 근무 가능. 병역 이행·면제. 리스크: SQL·VBA 및 이공계 우대. 관련 직무별 조건 확인.",
+    "roleRequirements": "신입, 학사 기졸업 또는 2027년 2월 졸업예정자"
+  },
+  {
+    "sourceId": "jasoseol",
+    "sourceUrl": "https://jasoseol.com/recruit/105842",
+    "company": "키움증권",
+    "title": "2026 하반기 대졸 신입 공개채용",
+    "roles": "S&T 운용 / 리스크 / PI",
+    "verification": [
+      "신입",
+      "리스크"
+    ],
+    "id": "jasoseol-105842",
+    "deadlineDate": "2026-09-13",
+    "deadlineAt": "2026-09-13T23:00:00+09:00",
+    "applicationUrl": "https://kiwoom.saramin.co.kr/service/kiwoom/3946/applicant/apply/recruit_default.asp",
+    "eligibility": "4년제 대학·석사 졸업 또는 2027년 2월 졸업예정. S&T 운용에는 ETF LP·패시브, 구조화공학, 대차스왑 업무 포함(같은 지원 트랙). 리스크·PI는 별도 모집 분야.",
+    "roleRequirements": "대졸 신입 모집",
+    "complete": true
+  },
+  {
+    "sourceId": "naver-kkbjob",
+    "sourceUrl": "https://cafe.naver.com/f-e/cafes/15279069/articles/648733",
+    "company": "미래에셋증권",
+    "title": "OCIO운용팀 Assistant 아르바이트 · AI·퀀트 리서치 지원",
+    "roles": "",
+    "verification": [
+      "Python",
+      "2026.9.17"
+    ],
+    "id": "naver-648733",
+    "deadlineDate": "2026-09-17",
+    "deadlineAt": "2026-09-17T16:00:00+09:00",
+    "eligibility": "대학교·대학원 재학/졸업/휴학 무관. Python·기본 통계/확률·기존 코드 오류 검증 역량 필수. 9/28 시작, 3개월 이상 근무. 아르바이트 채용."
+  },
+  {
+    "sourceId": "naver-kkbjob",
+    "sourceUrl": "https://cafe.naver.com/f-e/cafes/15279069/articles/648626",
+    "company": "미래에셋증권",
+    "title": "FICC운용팀 Assistant 아르바이트",
+    "roles": "트레이딩·데이터·매크로 리서치 지원",
+    "verification": [
+      "FICC"
+    ],
+    "id": "naver-648626",
+    "deadlineDate": "2026-09-11",
+    "deadlineAt": "2026-09-11T17:00:00+09:00",
+    "eligibility": "트레이딩 보조·데이터 가공·매크로 리서치 지원. Excel·프로그래밍 우대. 10/26부터 6개월, 시작일 협의. 아르바이트 채용."
+  },
+  {
+    "sourceId": "naver-kkbjob",
+    "sourceUrl": "https://cafe.naver.com/f-e/cafes/15279069/articles/647999",
+    "company": "TC더채움자산운용",
+    "title": "채권운용 지원·리서치 채용전환형 인턴",
+    "roles": "",
+    "verification": [
+      "인턴",
+      "채권"
+    ],
+    "id": "naver-647999",
+    "deadlineDate": "2026-09-11",
+    "eligibility": "3개월 채용전환형 인턴. 채권펀드 운용지원·기업금융/부동산 리서치·금융모델 업무. 졸업·학위 기준은 지원처 확인. 채용 시 조기 마감.",
+    "applicationUrl": "https://www.jobkorea.co.kr/Recruit/GI_Read/49842789"
+  },
+  {
+    "sourceId": "mobis",
+    "sourceUrl": "https://careers.mobis.com/jobs-view?seq=4035",
+    "company": "현대모비스",
+    "title": "투자관리 신입",
+    "roles": "",
+    "verification": [
+      "신입"
+    ],
+    "id": "mobis-4035",
+    "section": "corporate",
+    "deadlineDate": "2026-09-10",
+    "deadlineAt": "2026-09-10T11:00:00+09:00",
+    "eligibility": "학사·석사 졸업 또는 2027년 2월 졸업예정. 유효 영어성적 조건(영어권 해외대 졸업자 예외). 전형 중 모비스 다른 공고 중복지원 불가.",
+    "applicationUrl": "https://careers.mobis.com/jobs-view?seq=4035"
+  },
+  {
+    "sourceId": "mobis",
+    "sourceUrl": "https://careers.mobis.com/jobs-view?seq=4038",
+    "company": "현대모비스",
+    "title": "M&A 및 JV · 전략투자 신입",
+    "roles": "",
+    "verification": [
+      "신입"
+    ],
+    "id": "mobis-4038",
+    "section": "corporate",
+    "deadlineDate": "2026-09-10",
+    "deadlineAt": "2026-09-10T11:00:00+09:00",
+    "eligibility": "학사·석사 졸업 또는 2027년 2월 졸업예정. 유효 영어성적 조건(영어권 해외대 졸업자 예외). 전형 중 모비스 다른 공고 중복지원 불가.",
+    "applicationUrl": "https://careers.mobis.com/jobs-view?seq=4038"
+  },
+  {
+    "sourceId": "catch",
+    "sourceUrl": "https://www.catch.co.kr/NCS/RecruitInfoDetails/568549",
+    "company": "DB손해보험",
+    "title": "2026 하반기 신입 · 자산운용·리스크",
+    "roles": "",
+    "verification": [
+      "DB손해보험",
+      "신입"
+    ],
+    "id": "catch-568549",
+    "deadlineDate": "2026-10-02",
+    "deadlineAt": "2026-10-02T17:00:00+09:00",
+    "eligibility": "졸업·2027년 2월 졸업예정. 학점 3.0/4.5 이상. 관련 자격증 우대. 그룹 내 중복지원 제한 확인.",
+    "applicationUrl": "https://dbgroup.recruiter.co.kr/"
+  },
+  {
+    "sourceId": "wanted",
+    "sourceUrl": "https://www.wanted.co.kr/wd/221698"
+  },
+  {
+    "sourceId": "wanted",
+    "sourceUrl": "https://www.wanted.co.kr/wd/321015"
+  },
+  {
+    "sourceId": "wanted",
+    "sourceUrl": "https://www.wanted.co.kr/wd/311445"
+  },
+  {
+    "sourceId": "fidelity",
+    "sourceUrl": "https://jobs.fidelity.com/en/jobs/2132215/equity-research-associate-intern-summer-2027-tokyo/",
+    "company": "Fidelity",
+    "title": "Equity Research Associate Intern · Summer 2027 Tokyo",
+    "roles": "",
+    "verification": [
+      "2028"
+    ],
+    "id": "fidelity-2132215",
+    "country": "JP",
+    "deadlineDate": "2026-09-11",
+    "eligibility": "2028년 학사 졸업예정. 2027년 6/7~8/13 근무. 영어·일본어 회화는 우대. 비자 후원 미명시."
+  },
+  {
+    "sourceId": "linkedin",
+    "sourceUrl": "https://sg.linkedin.com/jobs/view/quantitative-research-intern-quantitative-strategy-jan-jun-2027-at-temasek-4449805210",
+    "company": "Temasek",
+    "country": "SG"
+  },
+  {
+    "sourceId": "linkedin",
+    "sourceUrl": "https://hk.linkedin.com/jobs/view/quantitative-researcher-intern-bachelor-s-or-master-s-at-tower-research-capital-4461711074",
+    "company": "Tower Research Capital",
+    "country": "HK"
+  },
+  {
+    "sourceId": "linkedin",
+    "sourceUrl": "https://uk.linkedin.com/jobs/view/quantitative-researcher-intern-summer-2027-at-aquatic-capital-management-4409023483",
+    "company": "Aquatic Capital Management",
+    "country": "GB"
+  },
+  {
+    "sourceId": "linkedin",
+    "sourceUrl": "https://sg.linkedin.com/jobs/view/intern-quantitative-research-jan-jun-2027-at-primrose-capital-management-4458132453",
+    "company": "Primrose Capital Management",
+    "country": "SG"
+  },
+  {
+    "id": "kofia-42041",
+    "sourceId": "kofia",
+    "sourceUrl": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42041",
+    "verification": [
+      "연금",
+      "마케팅"
+    ],
+    "excludeReason": "WM·연금 마케팅과 지원 중심으로 현재 희망 분야에서 제외"
+  }
+]

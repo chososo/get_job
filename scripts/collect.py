@@ -22,6 +22,14 @@ def canonical(url):
     if u.scheme not in ('http','https'): return ''
     if 'kofia.or.kr' in u.netloc and 'seq' in parse_qs(u.query):
         return 'https://www.kofia.or.kr/brd/m_96/view.do?seq='+parse_qs(u.query)['seq'][0]
+    if (u.hostname or '').endswith('linkedin.com'):
+        match=re.search(r'/jobs/view/(?:[^/]*-)?(\d+)',u.path)
+        if match:return 'https://www.linkedin.com/jobs/view/'+match[1]
+    if u.hostname=='cafe.naver.com':
+        match=re.search(r'/f-e/cafes/(\d+)/articles/(\d+)',u.path)
+        if match:return 'https://cafe.naver.com/f-e/cafes/'+match[1]+'/articles/'+match[2]
+        match=re.match(r'/kkbjob/(\d+)',u.path)
+        if match:return 'https://cafe.naver.com/f-e/cafes/15279069/articles/'+match[1]
     return u._replace(fragment='').geturl()
 
 def category_for(title, body=''):
@@ -37,8 +45,10 @@ def category_for(title, body=''):
     return None
 
 def junior_level(title,body):
+    from screening import experience_requirement
+    if experience_requirement(body):return None
     head=clean(title+' '+body[:450])
-    junior_title=bool(re.search(r'신입|인턴|intern\b|internship|graduate|entry.level|junior',title,re.I))
+    junior_title=bool(re.search(r'신입|인턴|intern\b|internship|graduate|new grad|entry.level|junior',title,re.I))
     if not junior_title and re.search(r'과.?차장|과장급|차장급|부장급|팀장|본부장|실장급|책임자|시니어|senior|vice president|director|principal|lead researcher|portfolio manager|engineering manager',head,re.I) and not re.search(r'사원|신입|인턴',head): return None
     if junior_title: return '인턴' if re.search(r'인턴|intern',title,re.I) else '신입'
     if re.search(r'((경력|experience).{0,20}([3-9]|\d{2})\s*(년|years).{0,10}(이상|required|minimum)|(at least|minimum of)\s*[3-9].{0,8}years|[3-9]\+?\s*years.{0,25}experience)',body,re.I): return None
@@ -49,16 +59,22 @@ def junior_level(title,body):
 
 def language_status(body,country):
     for local,english in [('일본어','Japanese'),('중국어','Chinese'),('폴란드어','Polish')]:
-        if re.search(local+r'.{0,15}(필수|능통)',body):return english+' 필수'
+        phrase=re.search(local+r'[^\n.;]{0,60}',body)
+        if phrase:
+            text=phrase.group()
+            if re.search(r'필수\s*(아님|는\s*아님|가\s*아님)',text):return english+' 우대 또는 선택'
+            if re.search(r'필수',text):return english+' 필수'
+            if re.search(r'우대',text):return english+' 우대'
+            if re.search(r'능통',text):return english+' 필수'
     for language in ['Japanese','Mandarin','Cantonese','Chinese','Polish']:
         if re.search(rf'\b{language}\b.{{0,35}}(preferred|plus|advantage|not required)',body,re.I):
-            return language+' 우대 · 필수 여부 재확인'
+            return language+' 우대'
         if re.search(rf'(fluent|fluency|proficien\w*|native|business.level).{{0,45}}\b{language}\b|\b{language}\b.{{0,45}}(required|mandatory|essential)',body,re.I):
             nearby=re.search(rf'.{{0,60}}\b{language}\b.{{0,80}}',body,re.I)
-            if nearby and re.search(r'preferred|plus|advantage|not required',nearby.group(),re.I): return language+' 우대 · 필수 여부 재확인'
+            if nearby and re.search(r'preferred|plus|advantage|not required',nearby.group(),re.I): return language+' 우대'
             return language+' 필수'
     if country=='KR': return '한국어 · 추가 언어는 원문 확인'
-    return '영어 명시 · 다른 필수 언어 재확인' if re.search(r'fluent.{0,15}English|English.{0,30}(fluen|proficien)',body,re.I) else '필수 언어 확인 필요'
+    return '영어 능력 요구 · 추가 현지어 필수 표기 없음' if re.search(r'fluent.{0,15}English|English.{0,30}(fluen|proficien)',body,re.I) else '읽은 원문에 현지어 필수 조건 명시 없음'
 
 def role_excluded(title):
     return bool(re.search(r'재무팀|회계팀|부동산|대체투자|NPL팀|심사역|AI에이전트|운용지원|미들업무|신탁회계|펀드회계|준법감시|마케팅|영업|사업개발|대체운용|business develop|internal controls|non.financial risk|compliance|software engineer|talent network|trading controls|sales and trading|operations engineer',title,re.I))
@@ -71,6 +87,8 @@ def parse_period(text):
     return (dates[0],dates[-1]) if len(dates)>=2 else (None,dates[0] if dates else None)
 
 def make_job(source,source_id,title,company,body,country,posted='',period='',application_url=''):
+    if source.get('_raw'):
+        return {'id':source['id']+'-'+str(source_id),'sourceId':source['id'],'sourceUrl':canonical(source.get('detailUrl','')),'title':title,'company':company,'body':body,'country':country,'postedAt':posted,'period':period,'applicationUrl':application_url,'complete':True,'accepting':source.get('adapter')=='greenhouse'}
     title=clean(title); body=clean(body)
     if role_excluded(title): return None
     category=category_for(title,body);level=junior_level(title,body)
@@ -132,7 +150,12 @@ def kofia(client,source,pages):
                     posted=info.get('등록일','')[:10]
                     if posted and posted>=datetime.now(KST).date().replace(day=1).isoformat():old_page=False
                     link=detail.select_one('a[title*="관련 홈페이지"]')
-                    item=make_job({**source,'detailUrl':url},seq,title,info.get('회원사명',''),body.get_text(' ',strip=True),'KR',posted,info.get('접수기간',''),link.get('href','') if link else '')
+                    item=make_job({**source,'detailUrl':url},seq,title,info.get('회원사명',''),body.get_text('\n',strip=True),'KR',posted,info.get('접수기간',''),link.get('href','') if link else '')
+                    if source.get('_raw'):
+                        item['images']=[urljoin(url,i['src']) for i in body.select('img[src]')]
+                        item['documents']=[urljoin(url,a['href']) for a in detail.select('a[href]') if re.search(r'공고|채용안내|모집요강',a.get_text()) and re.search(r'\.pdf|\.docx',a.get_text()+' '+a['href'],re.I)]
+                        item['needsAttachment']=bool(item['images'] or item['documents'])
+                        item['complete']=not item['needsAttachment']
                     if item is None:source['_excluded'].add(source['id']+'-'+seq)
                     found[seq]=item;inspected+=1
                 except (requests.RequestException,ValueError):failures+=1
@@ -171,57 +194,17 @@ def merge(previous,incoming,at):
         jobs[item['id']]=item
     # A failed scan or disappearance does not delete previously seen jobs.
     for job in jobs.values():
-        if job.get('deadlineDate') and job['deadlineDate']<datetime.now(ZoneInfo(job.get('deadlineTimezone','Asia/Seoul'))).date().isoformat() and job.get('status')!='closed':
+        if job.get('deadlineDate') and job['deadlineDate']<datetime.now(ZoneInfo(job.get('deadlineTimezone','Asia/Seoul'))).date().isoformat() and job.get('status') not in ('closed','excluded'):
             job['status']='closed';changes.append({'id':digest([job['id'],'closed',at])[:24],'jobId':job['id'],'kind':'closed','changedFields':['status'],'detectedAt':at})
     return list(jobs.values()),changes[-3000:]
 
 def run(pages=3,resume=False):
-    previous=json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {'jobs':[],'sources':[],'changes':[]}
-    sources=json.loads((ROOT/'sources.json').read_text());prior_sources={s['id']:s for s in previous.get('sources',[])}
-    client=Client();incoming=[];at=utcnow();excluded=set()
-    cache_dir=ROOT/'.collection-cache';cache_dir.mkdir(exist_ok=True)
-    for source in sources:
-        prior=prior_sources.get(source['id'],{});source['lastSuccessAt']=prior.get('lastSuccessAt')
-        if source.get('adapter') not in ('kofia','greenhouse'):
-            source['status']='manual';source['lastAttemptAt']=prior.get('lastAttemptAt');continue
-        source['lastAttemptAt']=utcnow()
-        try:
-            cache_file=cache_dir/(source['id']+'.json')
-            cached=json.loads(cache_file.read_text()) if resume and cache_file.exists() else None
-            if cached and cached.get('pages')==pages and datetime.now(timezone.utc)-datetime.fromisoformat(cached['checkedAt'])<timedelta(hours=1):
-                jobs,reason,failures=cached['jobs'],cached['reason'],cached['failures'];source['_excluded']=set(cached['excluded'])
-            else:
-                jobs,reason,failures=(kofia if source['adapter']=='kofia' else greenhouse)(client,source,pages)
-                cache_file.write_text(json.dumps({'checkedAt':utcnow(),'pages':pages,'jobs':jobs,'reason':reason,'failures':failures,'excluded':list(source.get('_excluded',set()))},ensure_ascii=False))
-            kept=[]
-            for job in jobs:
-                if role_excluded(job['title']):source.setdefault('_excluded',set()).add(job['id'])
-                else:kept.append(job)
-            jobs=kept
-            incoming.extend(jobs);source.update(status='partial' if failures else 'ok',reason=reason,found=len(jobs),lastSuccessAt=cached['checkedAt'] if cached else utcnow())
-            excluded.update(source.pop('_excluded',set()))
-            print(source['id'],source['status'],len(jobs),flush=True)
-        except (requests.RequestException,ValueError,KeyError,TypeError) as exc:
-            code=getattr(getattr(exc,'response',None),'status_code',None)
-            source.update(status='blocked' if code in (401,403,429) else 'error',reason=f'HTTP {code}' if code else type(exc).__name__)
-            source.pop('_excluded',None)
-            print(source['id'],source['status'],source['reason'],flush=True)
-    for old in previous.get('jobs',[]):
-        if old['id'] in excluded or (old.get('sourceId')=='kofia' and old.get('postedAt') and old['postedAt'] < (datetime.now(KST)-timedelta(days=120)).date().isoformat() and not old.get('deadlineDate')):
-            old['status']='excluded';old['evidence']='재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.'
-    jobs,changes=merge(previous,incoming,at)
-    # Preserve history but do not add already closed historic postings on first discovery.
-    prior_ids={j['id'] for j in previous.get('jobs',[])}
-    jobs=[j for j in jobs if j['status']!='closed' or j['id'] in prior_ids]
-    ids={j['id'] for j in jobs};changes=[c for c in changes if c['jobId'] in ids]
-    result={'schemaVersion':1,'generatedAt':utcnow(),'jobs':jobs,'sources':sources,'changes':changes}
-    OUTPUT.parent.mkdir(parents=True,exist_ok=True);temp=OUTPUT.with_suffix('.tmp');temp.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');temp.replace(OUTPUT)
-    new_changes=[c for c in changes if c['detectedAt']==at]
-    report={'generatedAt':result['generatedAt'],'jobs':len(jobs),'new':sum(c['kind']=='new' for c in new_changes),'updated':sum(c['kind']=='updated' for c in new_changes),'closed':sum(c['kind']=='closed' for c in new_changes),'failedSources':[s['id'] for s in sources if s['status'] in ('error','blocked','partial')],'manualSources':[s['id'] for s in sources if s['status']=='manual']}
-    (ROOT/'web/data/latest-run.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False),flush=True)
-    return report
+    # Retain the old entry point; every invocation fetches sources again.
+    from refresh_jobs import run as refresh_all
+    return refresh_all(pages=pages)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--pages',type=int,default=3);parser.add_argument('--resume',action='store_true');args=parser.parse_args()
     if not 1<=args.pages<=30:parser.error('--pages must be 1..30')
-    run(args.pages,args.resume)
+    from refresh_jobs import run as refresh_all
+    refresh_all(pages=args.pages)
