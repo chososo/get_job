@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.local/
+.collection-cache/
+backups/
+private/
+*.vault.json
+*.log
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/

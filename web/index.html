@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="description" content="퀀트·자산운용 주니어 공고와 지원 일정, 로컬 지원서 보관함">
+  <title>Quant Career Desk · 나의 지원 노트</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로</a>
+  <aside class="sidebar">
+    <a class="brand" href="#domestic"><span class="brand-icon">Q</span><span>CAREER DESK<small>나의 다음 커리어</small></span></a>
+    <div class="nav-label">OPPORTUNITIES</div>
+    <nav aria-label="공고와 일정">
+      <a href="#domestic">국내 공고 <span>KR</span></a>
+      <a href="#overseas">해외 공고 <span>GL</span></a>
+      <a href="#calendar">지원 캘린더 <span>▦</span></a>
+      <a href="#favorites">중요 공고 <span>☆</span></a>
+    </nav>
+    <div class="nav-label">MY WORKSPACE</div>
+    <nav aria-label="나의 자료">
+      <a href="#writer">작성 도우미 <span>↗</span></a>
+      <a href="#experiences">경험 보관함 <span>◇</span></a>
+      <a href="#documents">내 지원서 <span>▤</span></a>
+      <a href="#settings">수집 현황 · 설정 <span>⚙</span></a>
+    </nav>
+    <div class="sidebar-bottom"><span class="privacy-dot"></span> 개인 자료는 이 브라우저에만<br><button id="vault-button" class="text-button">로컬 보관함 열기</button></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span id="today"></span><div><span id="vault-status">보관함 잠김</span><button id="refresh" class="small">공고 새로고침</button></div></header>
+    <main id="main" tabindex="-1"><div class="empty">공고를 불러오고 있습니다.</div></main>
+    <footer>공고는 원문에서 최종 확인하세요. 개인 자료는 GitHub에 전송되지 않습니다.</footer>
+  </div>
+  <dialog id="modal"><div id="modal-content"></div><button id="close-modal" class="modal-close" aria-label="닫기">×</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
