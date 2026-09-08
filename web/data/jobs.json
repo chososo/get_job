@@ -2187,24 +2187,37 @@
       "lastAttemptAt": null
     },
     {
+      "status": "manual",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "id": "niceinfo",
+      "name": "NICE평가정보",
+      "url": "https://nice.career.greetinghr.com/",
+      "adapter": "manual",
+      "reason": "NICE그룹 채용에서 NICE평가정보를 선택. 신용리스크·모형개발·데이터 분석 인턴/신입 확인. NICE피앤아이와 별도 회사입니다.",
+      "verifiedFrom": "https://www.niceinfo.co.kr/person/work_life.nice"
+    },
+    {
       "id": "nicepni",
       "name": "NICE피앤아이",
-      "url": "https://www.nicepni.co.kr/company/overview",
+      "url": "https://nice.career.greetinghr.com/",
       "adapter": "manual",
-      "reason": "인재채용에서 파생상품평가·금융리스크·신입을 확인합니다.",
+      "reason": "NICE그룹 채용에서 회사 구분을 NICE피앤아이로 선택. 파생상품평가·금융리스크 인턴/신입 확인.",
       "lastSuccessAt": null,
       "status": "manual",
-      "lastAttemptAt": null
+      "lastAttemptAt": null,
+      "verifiedFrom": "https://kofia.or.kr/brd/m_96/view.do?seq=39856"
     },
     {
       "id": "koreaap",
       "name": "한국자산평가",
-      "url": "https://www.koreaap.com/",
+      "url": "https://www.koreaap.com/kor/company03_02.html",
       "adapter": "manual",
-      "reason": "공식 채용에서 금융공학·파생상품평가·신입을 확인합니다.",
+      "reason": "공식 채용 공고 게시판에서 금융공학·파생상품평가·신입 확인.",
       "lastSuccessAt": null,
       "status": "manual",
-      "lastAttemptAt": null
+      "lastAttemptAt": null,
+      "verifiedFrom": "https://www.koreaap.com/"
     },
     {
       "id": "kis",

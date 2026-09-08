@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/domain.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "build": "python3 scripts/build.py",
     "start": "python3 scripts/local_server.py"
   }

@@ -12,3 +12,6 @@ __pycache__/
 .pytest_cache/
 node_modules/
 dist/
+.routine-sites.json
+.routine-sites.tmp
+career-routine-sites*.json
