@@ -1,22 +1,21 @@
 {
-  "generatedAt": "2026-09-08T11:18:52.563728+00:00",
+  "generatedAt": "2026-09-08T13:05:38.983771+00:00",
   "mode": "rules",
-  "jobs": 171,
-  "new": 95,
-  "updated": 67,
-  "closed": 1,
+  "jobs": 211,
+  "new": 40,
+  "updated": 63,
+  "closed": 0,
   "attemptedSources": 27,
   "failedSources": [
     "kofia",
     "fcb",
     "superookie",
     "jasoseol",
-    "catch",
     "wanted",
     "qraft",
     "koreaap",
     "fnguide",
-    "naver-kkbjob",
+    "catch",
     "korea-finance",
     "citadel",
     "ubs-poland",
@@ -24,13 +23,11 @@
     "ls",
     "kiwoom",
     "jobkorea",
-    "naver-15279069",
     "fidelity",
-    "db"
+    "db",
+    "naver-kkbjob"
   ],
   "aiErrors": 0,
   "aiError": null,
-  "manualSources": [],
-  "finalVerification": "본문·마감·중복 보정 후 검사 완료",
-  "recommended": 58
+  "manualSources": []
 }
