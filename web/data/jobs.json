@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T14:46:21.799335+00:00",
+  "generatedAt": "2026-09-11T01:20:38.086227+00:00",
   "screeningMode": "astra",
   "jobs": [
     {
@@ -27,7 +27,7 @@
       "evidence": "재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.",
       "lastVerifiedAt": "2026-09-08T08:50:40.844347+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a4da338fc6b8be9ab3f8e0ca10ed80b0728456eef96a02ac38ea9bf54911f06c"
     },
     {
@@ -56,11 +56,11 @@
       "deadlineText": "20260901~20260915",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.021680+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.233728+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8e60dace0372bea1f2b685f0d13ab1a36418a24f6fdfaa9cd7aab32d49e73e82"
     },
     {
@@ -89,11 +89,11 @@
       "deadlineText": "~",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.033832+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.247208+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "cb63c764f1a864dc243d0e9bc47d9b3225a15780725d23c2fdfdb44711f08c5a"
     },
     {
@@ -122,11 +122,11 @@
       "deadlineText": "~",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.042728+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.256557+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4d10f8adb5df36bdb5340daf4c2ae93e764a16371675bfbad114b37fb76e25f5"
     },
     {
@@ -155,11 +155,11 @@
       "deadlineText": "~",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.046017+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.260160+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ae4c1cd0a797ca1eb8cbead6cdcb9f72e5931e7789ebc512aae1dbaeb9cfdc2a"
     },
     {
@@ -186,7 +186,7 @@
       "evidence": "재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.",
       "lastVerifiedAt": "2026-09-08T08:51:28.314306+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "eb69a0a9bb3f2c4535ff83a47aacf0009f0efa577d6ff0d69b2438a8c3432ead"
     },
     {
@@ -213,7 +213,7 @@
       "evidence": "재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.",
       "lastVerifiedAt": "2026-09-08T08:51:34.064063+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8537d21709c9cd88fb36d58e6c0c085aa64f38df63b367d536695e70e3a7ba58"
     },
     {
@@ -242,11 +242,11 @@
       "deadlineText": "20260907~20260914",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.051368+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.265788+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "cb10463b6be07c24a66709375b6c674f34830886fc18d4da05f808f917fe1ef4"
     },
     {
@@ -275,11 +275,11 @@
       "deadlineText": "20260904~20260909",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.102148+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.281611+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "24ae68779848b0a1eeae9b2c2ff18b9b64a1dfceed54b09e45e1e1ae4fe99222"
     },
     {
@@ -308,11 +308,11 @@
       "deadlineText": "20260903~20260930",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.358878+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.530494+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a90c6def8067be13a5ce119e198502b76398c7fee72a3536e5784d487cfd53cd"
     },
     {
@@ -339,7 +339,7 @@
       "evidence": "재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.",
       "lastVerifiedAt": "2026-09-08T08:53:47.658692+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4cb2407b9eeda1a0c1ec1c2803c3f13de0490ae3ee6e448b38cee6ac15e417bd"
     },
     {
@@ -366,7 +366,7 @@
       "evidence": "재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.",
       "lastVerifiedAt": "2026-09-08T08:54:12.201240+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "70885f70159389f34ac611d94501d17e3d793ebd3943deb5eede4a1b97b0cbbc"
     },
     {
@@ -393,7 +393,7 @@
       "evidence": "재검토: 대상 직무·주니어 조건에 맞지 않거나 오래된 미확인 공고입니다.",
       "lastVerifiedAt": "2026-09-08T08:54:17.031555+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b71e3f036f38b1d9a8f0968c8b908f387a07d9dac4409347ed566baf431ecf75"
     },
     {
@@ -418,9 +418,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.168953+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.440525+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a27642fefecfa1066780ad7bb2e9775734dc2fbe1c1cafb6f8b0ca6a38839e28",
       "screeningVersion": "2026-09-08.6"
     },
@@ -449,13 +449,13 @@
       "deadlineKind": "unknown",
       "deadlineText": "마감일 미공개",
       "status": "review",
-      "evidence": "Astra 심사 실패 · OpenAI 연결 시간이 초과되었습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.221147+00:00",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:08:39.447903+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "contentHash": "634b079f260f0334b666f10a7bb38998c5d73b6e5fd97e351c8c68956e188a73"
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "4fa24ddd6adf96d08d405619332b8e5fc71b94a4662ad95e1e503c5dd759a949"
     },
     {
       "id": "worldquant-4232927006",
@@ -482,13 +482,13 @@
       "deadlineKind": "unknown",
       "deadlineText": "마감일 미공개",
       "status": "review",
-      "evidence": "Astra 심사 실패 · OpenAI 연결 시간이 초과되었습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.190069+00:00",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:08:39.444490+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "contentHash": "e999e1baf5549a1af976c838a177a6d9071f7fd3b03d801f07521baff824647a"
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "1d9269ab437e454bb422df686fc327f8d4ccce5115880747ce5466c8e5a2a215"
     },
     {
       "id": "worldquant-4250853006",
@@ -512,9 +512,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.222125+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.448465+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e8d698c3e7327ae149ddfb14b87a90c55b32efade19aade92d677fbc0f77aeb7",
       "screeningVersion": "2026-09-08.6"
     },
@@ -544,11 +544,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.231638+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.459794+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7b503bf11b8b032fec076cdfcdf6df78cd237ece1b6b048e3819688bff8e20fd"
     },
     {
@@ -577,11 +577,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.229336+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.457326+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1ae36e973b1d7afe6b2a3396c6eea8e85499b56378f8900a57a50f1cccc84cf6"
     },
     {
@@ -610,11 +610,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.234429+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.463218+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "50ab59c896f7822358bb06409da56ccd0bb383f58c2ab881362603aacf25cdbd"
     },
     {
@@ -643,11 +643,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.239504+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.468889+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "83fae7eb68529920dd6bf43541ec064bf851cd28a353d2022ed41be93d97ad8b"
     },
     {
@@ -676,11 +676,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.236968+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.466096+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1e6044e0a7013e03eb8095c393a64f5559297e02e7ccd6e2431f0a2ca5b6c151"
     },
     {
@@ -709,11 +709,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.242618+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.471952+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0b85333d4a8824b23d7d61deb003aa3e613b3688668ec3987a0e184e5873a422"
     },
     {
@@ -742,11 +742,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.245132+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.474543+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4afb0ccb86dbddd2d7d0cd3e7768e2c1cfb0879299c467a236b2f4417bcc969a"
     },
     {
@@ -775,11 +775,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.248362+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.477882+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "439beb7a7ca515d19ead56bbffa27c30144b2cc2210822444383fc89e7978c4d"
     },
     {
@@ -808,11 +808,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.250111+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.479821+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4b4807ddd59f3820b89726411ed3a95261c212ed8117a6a2d708488a4188c2fd"
     },
     {
@@ -837,9 +837,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.250533+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.480106+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c44677b9dfbcdbacf0c18b1a175b5b45012ee721501260de15175ba4ae2fa839",
       "screeningVersion": "2026-09-08.6"
     },
@@ -865,9 +865,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.251757+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.180830+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8252c8f3930bf7c3da3123217c47e464f162db438f7ff4a09a66924f41a6b6ff",
       "screeningVersion": "2026-09-08.6"
     },
@@ -893,9 +893,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.252164+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.201239+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7bda276b68ff27ec1fb9a13dea7f2a54cd9b88b0bca6bc3d0cbd5f39ef3fbda1",
       "screeningVersion": "2026-09-08.6"
     },
@@ -921,9 +921,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.252368+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.201671+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "99d70b81b649883d6a9cddc76010ef1a771352df9c61b9972dd1473ff788aaa2",
       "screeningVersion": "2026-09-08.6"
     },
@@ -949,9 +949,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.252830+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.202342+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "86725fdaa614d8fc82195ecf762d079d1a7f0955c21387c60cbd8243a213e33f",
       "screeningVersion": "2026-09-08.6"
     },
@@ -981,11 +981,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.254254+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.206699+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "872204131f093e5de3c58785f854f81bf67288082be88f5c7c91eb07861390f1"
     },
     {
@@ -1010,9 +1010,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.255134+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.207656+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "82db56a49e1c7964ba9dfb9114e11ea5f03dfbcde0ec1a2f4898b66fc12d55a9",
       "screeningVersion": "2026-09-08.6"
     },
@@ -1042,11 +1042,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.260505+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.213998+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "024867d373ed177a5855686e2b7ec017648ce1632cbadf25e189fe7034c57077"
     },
     {
@@ -1075,11 +1075,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.258876+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.215706+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "28f4d03cd99991d60f22a274654724a106cbbfefc7ecce82bb0dc5e534202795"
     },
     {
@@ -1108,11 +1108,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.257104+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.211895+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "bd777b12ddf4d304fc166b816aa3a6a00232ef58527dae70811a1e7e9946ec44"
     },
     {
@@ -1141,11 +1141,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.262314+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.217499+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "fc9d6ddf7cc572ac9a1bb710e4ea480db13e844e4b1c90ddbb470d6d77a8b92d"
     },
     {
@@ -1174,11 +1174,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.264275+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.210067+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "d159721b8dee94143af310c0a6f942ce76622914c1dab0514a1b086e7a162462"
     },
     {
@@ -1203,9 +1203,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.264653+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.217822+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1571f106621b36034d4c8573883c4c967fba534a9183598adbe932afcdc8ee61",
       "screeningVersion": "2026-09-08.6"
     },
@@ -1235,11 +1235,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.266692+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.219985+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8d4751c724b87d03dd67a5e3eb2e32712ecbfc513adadf9b6e3c04dfc5314059"
     },
     {
@@ -1268,11 +1268,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.268101+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.226111+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "28248be0a5a7965cb23530d2c7573ba3cc1c35b610cf80ad28a165f6a0f5bd39"
     },
     {
@@ -1305,7 +1305,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b4eaea648541989b1e436b773551b74970d80fe5e12dc0216c10427dbd8d4370"
     },
     {
@@ -1334,11 +1334,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.269632+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.223101+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "30af2ec3b769e9e34237644c74809cb60ca9c874e3fa0fd1b51fb5efad2501d9"
     },
     {
@@ -1367,11 +1367,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.271047+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.227498+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "fb6e684c0848bcd38917a68a61dfd681083b5b5d608c63401927fc739b49abb7"
     },
     {
@@ -1400,11 +1400,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.272620+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.224738+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "07e2666e21d350a16a3b50a7a556358f681cc1d9dc58d18005a6993322dd9207"
     },
     {
@@ -1433,11 +1433,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.278814+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.233638+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2d105604d14b884a57a281b525d15545028f6ec5d8cb5cf7e2b8ced5811a63ec"
     },
     {
@@ -1470,7 +1470,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "36c7f37fedc3ed340f469b737e43c5889b945841f7c9c24ac680438b9bdf53ee"
     },
     {
@@ -1499,11 +1499,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.276365+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.236880+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6a24b2021da2c4487474555e3859636d27220c9dd7fb8fe439dd9d939c2d7efb"
     },
     {
@@ -1532,11 +1532,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.281703+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.236182+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "31e358fb6db85233bb8cf69f0189efa757daafc976e26d89e225add445e66295"
     },
     {
@@ -1565,11 +1565,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.283139+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.229716+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "69a539609282b3621d65637c2fcc708ab1ceecb141b99ed47515e6a4f500d22f"
     },
     {
@@ -1598,11 +1598,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.283956+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.228388+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9ff008802e96f6d4da2e0c6255e83f0dcf321cc20b564865f02b49060821307a"
     },
     {
@@ -1631,11 +1631,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.285900+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.237928+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "fce308deb8a07bf1854d5e6708bb19b719e97dd347b4a343d0dad056c06f9057"
     },
     {
@@ -1664,11 +1664,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.284866+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.238621+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ce84772a702127c2cbd136a23199c75e9139a5525e91e34ad076c50cef9789ae"
     },
     {
@@ -1693,9 +1693,9 @@
       "deadlineText": "미확인",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.286156+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.238827+00:00",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e8c6131d0c5be6a519185f0f251ff18be783857f19ddb1fcd8a6d312ca165a4d",
       "screeningVersion": "2026-09-08.6"
     },
@@ -1725,11 +1725,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.292155+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.242598+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8c59f61fd819acec8bb2eeee5cbacdfa62812c280cfa156a0f1500d694e61cd3"
     },
     {
@@ -1758,11 +1758,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.290159+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.247335+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "936f8784ceaa86d8460fcdac7991a7a2ddbb0904b24a5f2bb02de9313c4ca460"
     },
     {
@@ -1791,11 +1791,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.295294+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.244268+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "799c63731bf1ad5c23e1103446eab5400151e83e13b46ca2453b79ef806fbb4a"
     },
     {
@@ -1824,11 +1824,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.288788+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.245851+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "32eaa8ec8f0fadbd38144c7f22758d60035c556ff20fb7fb3e00e5c383ed1cd1"
     },
     {
@@ -1857,11 +1857,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.293585+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.241031+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T08:49:25.755258+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "772336cedd7ee6a33263f2ebf90ad4dc64cd29b5910003b6428861e2ee85f2a2"
     },
     {
@@ -1887,11 +1887,11 @@
       "deadlineText": "20260904~20260918",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.541502+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.711635+00:00",
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c7f70dc9297ecdc5247f06fee20e11a91261499e62cf13d6954354a530c0ff7f"
     },
     {
@@ -1920,11 +1920,11 @@
       "deadlineText": "~",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.542297+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.712474+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "79907651f4a66eecccd908af7da4f6d11bb99ab0b639bb864a3db156ee958377"
     },
     {
@@ -1953,11 +1953,11 @@
       "deadlineText": "20260902~20260920",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.689047+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.824134+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e5406f5e91ff480b8c2d9afb3a3bc8a16fce8cc575fae8e7b5831b40097e7d32"
     },
     {
@@ -1982,9 +1982,9 @@
       "deadlineText": "20260902~20260915",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.689345+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.825217+00:00",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "701f53ac30507a32f972f2f78354ae6c7a8b2d2df368e725612851d4613ee9f1",
       "screeningVersion": "2026-09-08.6"
     },
@@ -2011,11 +2011,11 @@
       "deadlineText": "20260901~20260918",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.916867+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.069708+00:00",
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2b2e9b2e844cc43275e6e793c2d2bc8f2d219c7f6b76d0e974c82e7cd91c36f6"
     },
     {
@@ -2044,11 +2044,11 @@
       "deadlineText": "20260901~20260930",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.918447+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.071048+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c2f22bf5aebe50dd79dd2f2a108867df695a5d358f1e6d7d2207639fad3cb0b4"
     },
     {
@@ -2077,11 +2077,11 @@
       "deadlineText": "20260828~20260913",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.920504+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.072901+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "27b913f59cca688908f19d7a1df0ec1612f61f41f1caa6f1a72f4b534d3ab09e"
     },
     {
@@ -2110,11 +2110,11 @@
       "deadlineText": "20260908~20260913",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.926586+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.079524+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "410f303f0c99d7a2732bc1a4f5542a6b142ecb912c97dc0170f0e68448cc6e8f"
     },
     {
@@ -2143,11 +2143,11 @@
       "deadlineText": "20260908~20260918",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.130508+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.273558+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ad56455d8f792823d94b1c0f64f58d721255a243e82109a5ffa30e1f8d2f479b"
     },
     {
@@ -2176,11 +2176,11 @@
       "deadlineText": "20260907~20260913",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.131332+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.274625+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "46dc121014ce427b3232f0165f6f5ee7cc851eaaaaa825e81aa892ce39e19cca"
     },
     {
@@ -2209,11 +2209,11 @@
       "deadlineText": "20260907~20260918",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.132383+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.275595+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c8ea3c0635971377d523040f2072ba3f4f2f78513e8e7c51cb399d450f03793d"
     },
     {
@@ -2242,11 +2242,11 @@
       "deadlineText": "20260907~20260914",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.430311+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.488164+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e11ec00b9b0e5d5a6c69333090604e2754a12319f96d6653a0f4f9d5ef1e73b5"
     },
     {
@@ -2275,11 +2275,11 @@
       "deadlineText": "20260907~20260913",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.431339+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.489300+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "47ec7cfb8772198414895904aa125be89549938c43a140b1922f84d66e2c44a8"
     },
     {
@@ -2304,9 +2304,9 @@
       "deadlineText": "20260904~20260910",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.431633+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.489861+00:00",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0b030ca36d5cf9ecad804539fd413bfdb1d31aa3a53bc9164b738ebba0ab5ae3",
       "screeningVersion": "2026-09-08.6"
     },
@@ -2336,11 +2336,11 @@
       "deadlineText": "~",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.433885+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.491967+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "154854ba415e28d93b65ad855e8124b96aeaf86dbe24879967008d90ccc5e517"
     },
     {
@@ -2367,14 +2367,14 @@
       "deadlineTimezone": "Asia/Seoul",
       "deadlineKind": "date",
       "deadlineText": "20260827~20260910",
-      "status": "excluded",
+      "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:51.627877+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.690114+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "contentHash": "52f359e9a273402ff6c61c4af0953271e9695441ead55e81b54c06cbdfb5ae8c"
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "4493073bf710776beb3ce3ea2ce987f4b36274b3710964e6fef4ce23f2ee5a75"
     },
     {
       "id": "kofia-41797",
@@ -2398,9 +2398,9 @@
       "deadlineText": "~",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:35:52.389024+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:28.478777+00:00",
       "firstSeenAt": "2026-09-08T09:10:43.669731+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c9a1fbff423a26c0cbf572ab66a1f32fc54f25a52463e591188c8dbd8ac9d880",
       "screeningVersion": "2026-09-08.6"
     },
@@ -2430,11 +2430,11 @@
       "deadlineText": "20260901~20260914",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:49.629889+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:25.853967+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c2992f005c90726af06e8c22513b71d333d9161fc13af33284ec2c8d4169956a"
     },
     {
@@ -2463,11 +2463,11 @@
       "deadlineText": "20260901~20260913",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:49.639368+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:25.866465+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "628eb65ae038791486fd9a17601d5a3f8f0db64c8d348e50e5356335f82c22e7"
     },
     {
@@ -2496,11 +2496,11 @@
       "deadlineText": "20260901~20260915",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.052157+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.266718+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6fc2660ea4f0249b5509c358e1c4f7312da793b50096dddeaf165e98c48c4e83"
     },
     {
@@ -2529,11 +2529,11 @@
       "deadlineText": "20260831~20260913",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.919417+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.071976+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6452ec10ecb3c3fbdc4317af3c8bd4cb37406c7f9f198164375d88f9196cc52a"
     },
     {
@@ -2562,11 +2562,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.839962+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.709351+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "092aaa7a7a5f5a5deeeb276d1cbc972a69fe56a4a92371cee59f23d129e58272"
     },
     {
@@ -2595,11 +2595,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.848049+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.718719+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "84ffb14afcfc36f46f39b219dec2d2b9fd93a877cc4ba08ce5689087b61a90fa"
     },
     {
@@ -2629,7 +2629,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7dbb1327017cf53fb2913276c75d8e735e404e66e0b9c94b0b4d63e1d0abeabe"
     },
     {
@@ -2658,11 +2658,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.841278+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.711190+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "27ae087629b4307077c4af897b0805a3ac9e2ee25b0f46ec85ddc0fbc1895f01"
     },
     {
@@ -2691,11 +2691,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.841829+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.711774+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c6e6cbfd94862904130a1378b8b415fd11709c825d10a6b726d0f77323664107"
     },
     {
@@ -2724,11 +2724,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.842227+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.712286+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "3af50db22006ee33512bd2233d75ef96b08031fa4d3e113055e608717c1c8e02"
     },
     {
@@ -2757,11 +2757,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.842838+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.713077+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4c65e05e3649523d0ecd4951b4bedc5d76942c1aa3685fe59f9f10be57255a1d"
     },
     {
@@ -2790,11 +2790,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.843223+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.713545+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2e86f34c8ff241e0a35149ee0ffd19991444b63099cdae8a6769ba016c0d71fe"
     },
     {
@@ -2823,11 +2823,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.843622+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.714066+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "698ce327c199fa9ee3ec5ec3f68810f356be5af18aa0572bc48df1badc25c39d"
     },
     {
@@ -2856,11 +2856,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.844005+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.714641+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0bce07be5eaf625ad7ac510be64d7b25a37720db28ca328d24932f127f1e562b"
     },
     {
@@ -2889,11 +2889,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.844965+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.715642+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "abe4b42712042287d87497a86a19f88142e5d8cdfb8b4ac2e31cfdfa408b5f21"
     },
     {
@@ -2922,11 +2922,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.845319+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.716018+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "5915257ddbe6aa306fe663cfb00f208a811fa06badc7ffb3e5bc08f233172ee1"
     },
     {
@@ -2955,11 +2955,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.846004+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.716675+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2255d396046d11d05393e9b8f8c1a8a1aea46992bda412a3f4a8e63a06c18a86"
     },
     {
@@ -2988,11 +2988,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:09.343883+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:56.372839+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a08d9fdf915f826654794cf6fa278626d3b4635ba366a3a561a0b3ff1fe0bb72"
     },
     {
@@ -3021,11 +3021,11 @@
       "deadlineText": "2026-09-15 17:00 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:44:36.303093+00:00",
+      "lastVerifiedAt": "2026-09-11T01:18:33.778857+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7dd0f7d7e7d5a5e706f41b161a8e435960c4bd7dc12d7ae55d6a333252377fc8"
     },
     {
@@ -3054,11 +3054,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:01.303162+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:48.605054+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ec37779e76b12a01e656290b56627eac33dd6a5c8668c8a0378de7af583b9b7f"
     },
     {
@@ -3087,11 +3087,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:02.867766+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:50.139634+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "71a61770f9b1f9e5a5c73b847fd8a67def093268ba77e2a5cbe2fa3c47ba3727"
     },
     {
@@ -3120,11 +3120,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:03.893081+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:51.115048+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "37102a72408d4680cb1e7e28935b5eee817b6ccc868ea409d1ba0da2b359f92d"
     },
     {
@@ -3153,11 +3153,11 @@
       "deadlineText": "2026-09-15 17:00 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:44:36.305504+00:00",
+      "lastVerifiedAt": "2026-09-11T01:18:33.781284+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6788fec5bfc88155e7b425204ab30c792be6874368eb7dc2cc2bd2a59874697a"
     },
     {
@@ -3186,11 +3186,11 @@
       "deadlineText": "2026-09-15 17:00 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:44:36.306254+00:00",
+      "lastVerifiedAt": "2026-09-11T01:18:33.781943+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e3dea12577ad2219754eba123875c5cdd05c82bf380720671da1dae14051169d"
     },
     {
@@ -3219,11 +3219,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.777174+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.694435+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7aaeb64a1504bd418732f313d51fc3344b510973433588c206e6745857fb145a"
     },
     {
@@ -3252,11 +3252,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.778432+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.695470+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c0f177b75e9892ae09619523d7bcac02541f7526f5f1ade102c482cae7727494"
     },
     {
@@ -3285,11 +3285,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.779798+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.696824+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c46b516c1c57364efeaad676b0abc2ac82e86ae09f2ac1bce0e50d721b24b0d4"
     },
     {
@@ -3318,11 +3318,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.785362+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.702060+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "cb48c6b62c259cc8efdcc7e6dee9026cbc5a97db7e295e7a55d68c7ebf6adf7e"
     },
     {
@@ -3351,11 +3351,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.787083+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.703387+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6043d121ae611abc7211545cf9b6b84989c41b5c034b880383b9a4f5410e01b8"
     },
     {
@@ -3384,11 +3384,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.789477+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.705449+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "5521049495e76b3add3da0b6cd16196785431cb4a5e29bca82d247c0a78e87fc"
     },
     {
@@ -3417,11 +3417,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.791549+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.707608+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8f1653b03f81c0230f43434ed8cde830883fa866ca5e844f056e26fc0e19e495"
     },
     {
@@ -3450,11 +3450,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.792968+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.709011+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ced03d14bf52fe385f72afa51f24b5794c2eaf1909c77e3cc480e1eae1009ce3"
     },
     {
@@ -3483,11 +3483,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.794226+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.710289+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "940105b62d0e5a67e6586023f66e95665988e2c115ead1d6acc5d76bf4b1da46"
     },
     {
@@ -3516,11 +3516,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.796503+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.712302+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4e2be25964197c6e20f2749148bf0c91cccb4b660bbe4d13dbcf6f7bf2603a0d"
     },
     {
@@ -3553,7 +3553,7 @@
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "3660cc80edb4e22f1bf882f904d885225239e90d1c401d1619dc163ccde175c8"
     },
     {
@@ -3582,11 +3582,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.800404+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.713053+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "afc3a9658e256295ebf8fdad937f06f5a11187238e953f468f545949253dc48a"
     },
     {
@@ -3615,11 +3615,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.804076+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.716523+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4ea058623478f1721c34b0325ef0ebd9b230929ab6a032a9b139cf96cc2bdf19"
     },
     {
@@ -3648,11 +3648,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.809187+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.721119+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c024411b39981f47cd1ec8262dde3f1c1b6909b3b3b7bfe74de0e6d85f8dc788"
     },
     {
@@ -3681,11 +3681,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.810824+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.722509+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4d6a04cf051244e29656a936d50af8cf3c5f9469b32c679bfa26c3aae00f6803"
     },
     {
@@ -3714,11 +3714,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.811767+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.723408+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1eca41c99df7f2f1814825b04618143e193df26eb88a0006706f74d2e1672020"
     },
     {
@@ -3747,11 +3747,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.813966+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.725538+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "51daa2dd1e2f0e5444f0ada46436d40c67b1ed3fae6342a70fd433a0e4f32f9b"
     },
     {
@@ -3780,11 +3780,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.815874+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.727424+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "bcf73f457aed8fad7c3538f5d6a74328bfde9381018818a8ac23c6fc99cd5036"
     },
     {
@@ -3813,11 +3813,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.817858+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.729355+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8ca943883864163a071abb4f710f59043443878f6438eb540bde8669669c396b"
     },
     {
@@ -3846,11 +3846,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.820358+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.731545+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9265ca60155183213936cd1ca96717ca66f7131d2985f2bff44c708a54c2ac03"
     },
     {
@@ -3879,11 +3879,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.821179+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.732263+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7ca80bf5a75f3ccf0635dbd1f21eac647749763facff642112e35d9d0846481b"
     },
     {
@@ -3912,11 +3912,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.823961+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.734885+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e9575ffb2c4858eb647ac0d7a94eccdcb323eaa6e9d78a1c42f2cfcaace5312f"
     },
     {
@@ -3945,11 +3945,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.826407+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.737843+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "120c1ff2ad14cc4a0779b7e52661ed8486d208d97d7c680f2204640cf6fc2ff5"
     },
     {
@@ -3978,11 +3978,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.828168+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.739571+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "82f4723c16876ff2b93d179e0094a23bf30dcc9c32118602c10ec4ef92b0c937"
     },
     {
@@ -4011,11 +4011,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.830402+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.741775+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b0a8f2433ee243dc0ef19852113bda8ffe11580a9b076fea1a99ff969b003cf7"
     },
     {
@@ -4044,11 +4044,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.833409+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.744837+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "15f6a48d0790425ea63cf611a4717892a32e57ca11dafe03384e4ef521264ae1"
     },
     {
@@ -4077,11 +4077,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.836456+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.747558+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "15f6a48d0790425ea63cf611a4717892a32e57ca11dafe03384e4ef521264ae1"
     },
     {
@@ -4110,11 +4110,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.839349+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.750159+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "5d19857baa45e0444d75e13861aeaf850077f5ae82ba4d1ec1f4e4b0589cb549"
     },
     {
@@ -4143,11 +4143,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.840542+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.751157+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2aaa43836139d700dcb54aee496585abfe1c0745f717ba3a12a38d1ec4ca9a36"
     },
     {
@@ -4176,11 +4176,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.841822+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.752372+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "404a9ef7285020db20a7b369becbf111138115379277924937954309afcf7d7a"
     },
     {
@@ -4209,11 +4209,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:39.213405+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:18.998104+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a953756178c817e05299d79f452d8eb279eaa12b6783eb38efa4faf13ad24363"
     },
     {
@@ -4242,11 +4242,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.701253+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.023088+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "5db02229e23e311ba93ed86cf8282671036db9f31ed9ec1e8d2d26a0eb54f648"
     },
     {
@@ -4275,11 +4275,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.702008+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.023836+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0c9af5d1e44f5bbac0326cd02fbf5ada2d1b724fb9460e8769e1b38a62019fdd"
     },
     {
@@ -4308,11 +4308,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.703061+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.024797+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6b6d6dbb04b3aff029096aef35acfc5f7e9a62f563279190d25e8fb25588bddb"
     },
     {
@@ -4341,11 +4341,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.684726+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.002849+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b11fd87c14e39f471c9675f20246dec1517319d9572a4eba105438bc7a5f5ef7"
     },
     {
@@ -4374,11 +4374,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.686207+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.004780+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2c9ec248dd348277ddfa29fc3de9d73606a4f8c7521d6ca3fc6ea972dfcd6bc2"
     },
     {
@@ -4407,11 +4407,11 @@
       "deadlineText": "마감일 미공개",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.706510+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.028511+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6ef4f055d9382d520db0b5f3d69fb082864e7bac78fa4cfbe0278de5cd6a54bc"
     },
     {
@@ -4437,11 +4437,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.706723+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.028739+00:00",
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0e10a965cc079a03e006302f05fe144bd2b8f07638b9876403739695ffbad311"
     },
     {
@@ -4470,11 +4470,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.686667+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.005746+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ac6b5a8374442bb54428d1d8c592f111513a78e7dbae7de2aa0a211499de5e03"
     },
     {
@@ -4503,11 +4503,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.687381+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.006655+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "773419af31a217c94d2eda39195ff9a90ef1f2d2ed848b91ca3d5f5682bad4cb"
     },
     {
@@ -4540,7 +4540,7 @@
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "eabfc8a86cb2b6cf2b97e98169fbfaf6c35d2ec16f7c8e794408ed32fe2223d9"
     },
     {
@@ -4573,7 +4573,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a1d593a1f6babfc2bf2a427a6defd6e09d6914df4f5fe38a232c370e865e0540"
     },
     {
@@ -4602,11 +4602,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:41:33.852627+00:00",
+      "lastVerifiedAt": "2026-09-11T01:16:02.927833+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6c1633cfadcd00ad548e145daabf39c8971d5aee16fe80909c334694ab7fa852"
     },
     {
@@ -4635,11 +4635,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:29.895052+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.063345+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1a298dfa440cacdc3f1a489160888aa47626f079230917279dfdbf72f879d4fa"
     },
     {
@@ -4668,11 +4668,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.403497+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.758162+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a32b73e33f1fa76a1c45d705337ce537ff72a19aefc6896c64d830b7f2836d80"
     },
     {
@@ -4702,7 +4702,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ec44b5eac9b32836554d68cfb2f5f2857dbc27dda5eb07b160337d13ad347a9e"
     },
     {
@@ -4735,7 +4735,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "22f688ae9d64c9d11fd53ce4f206f7ae2536eb8d79219aa354ac95d6c353b826"
     },
     {
@@ -4768,7 +4768,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b23e2ea3221903802e5626a74ae919f23540ee80b604665cffddd109ad77f62e"
     },
     {
@@ -4801,7 +4801,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "65f747564929c7c02be145c4cefea04e5948c501fb60ed3676830edc454ab030"
     },
     {
@@ -4830,11 +4830,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.407150+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.759263+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a825cb47e23edc947dca7bcd86a4934bce03548cb06abbde3fc7e3651f19f03c"
     },
     {
@@ -4867,7 +4867,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f493fb60d2fdf7082639e986a46bf72562afddf418faf13958b54203e0dfa1e8"
     },
     {
@@ -4896,11 +4896,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.410488+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.760208+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0d8caaecb39ea9d76e2db7c0b562cb2dcfc7218abebbbbbc11e65754e16ea32e"
     },
     {
@@ -4933,7 +4933,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a532be2ae18aa9cb6b3e3c0a2e4ef7800979aebcb898afe740bb528eed231633"
     },
     {
@@ -4966,7 +4966,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f349a8b8d931352b4b0c3438cf38006834558c74f263f495e0e608930e3bdeea"
     },
     {
@@ -4999,7 +4999,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "29e28929a3e8ee4df0828adce42ff3b7a073de349da6d3e1b9b3c481408c1cfc"
     },
     {
@@ -5027,13 +5027,13 @@
       "deadlineKind": "date",
       "deadlineText": "마감일 미공개",
       "status": "excluded",
-      "evidence": "경력 전용 공고: 인턴·신입 지원 근거 없음",
-      "lastVerifiedAt": "2026-09-08T13:19:28.387460+00:00",
-      "screeningMode": "rules",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:17:23.579456+00:00",
+      "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "contentHash": "76d6525a40ae644fba07f84d16d61b7dae124d9d9859b7a0542864a0fc2651b5"
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "add2f79003fd5c5e29c0d2843b7372772c1d434af8724c27d7a7bc0821960c12"
     },
     {
       "id": "jobkorea-1018b817608a6021",
@@ -5061,11 +5061,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.412667+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.760927+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "02648f04849eada9274ffe04a4942f6f945e795fd64800f4e43a4ea079291991"
     },
     {
@@ -5093,13 +5093,13 @@
       "deadlineKind": "date",
       "deadlineText": "마감일 미공개",
       "status": "excluded",
-      "evidence": "경력·책임자급 직무",
-      "lastVerifiedAt": "2026-09-08T13:19:28.389540+00:00",
-      "screeningMode": "rules",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:17:23.581022+00:00",
+      "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "contentHash": "668c2027f498d6c171bccaadb6b06dcbc0edb4bc05609fcbba9af519fe32d5d0"
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "1e9bd2668128512b137d968159c0bb53f1527689fddd6d760ae3e03af2dce0f9"
     },
     {
       "id": "jobkorea-ee55442d62c7a73d",
@@ -5127,11 +5127,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.414997+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.761776+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "10d40e46f4e9f867d2782c452a5f7ea1e3a2cd7eb83d78cbb162a51461bff895"
     },
     {
@@ -5159,13 +5159,13 @@
       "deadlineKind": "date",
       "deadlineText": "채용 시 마감",
       "status": "excluded",
-      "evidence": "경력 전용 공고: 인턴·신입 지원 근거 없음",
-      "lastVerifiedAt": "2026-09-08T13:19:28.391679+00:00",
-      "screeningMode": "rules",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:17:23.582025+00:00",
+      "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "contentHash": "c4c5f487c4d2ca214b3837513edb68ec5ab410938daf38290cb115166d564ad6"
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "8e60f52eb4ac71e6f4b165398ed15882828a579ff76399d8673159ea4cef7112"
     },
     {
       "id": "jobkorea-73c31936f305e0ce",
@@ -5194,7 +5194,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.2",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b3f4729944954053dffb9d32044faa578ee1d23f9be8806d6dd2741cd66baf1e"
     },
     {
@@ -5224,7 +5224,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.2",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "966e31e4e1de84d7e44523f82473bc874ab009dba497c371506fbc9d95cd4eca"
     },
     {
@@ -5254,7 +5254,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e6bf6ab1f8c47075325b3c1022ebe93617bc69dc83da5cbea31e2462a12b3a47"
     },
     {
@@ -5284,7 +5284,7 @@
       "screeningMode": "rules",
       "screeningVersion": "2026-09-08.6",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8192b2c0e65311151063fb692918adcf1502473a56c37c1ed186034e5a298322"
     },
     {
@@ -5313,11 +5313,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:37.656947+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:29.772306+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "d2721c24670da9af802827162bebd96a8ec9a7cf5de332bf621eb71a32e5833a"
     },
     {
@@ -5346,11 +5346,11 @@
       "deadlineText": "2026-08-28 - 2026-09-10 11:00",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:42:43.435202+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:11.997491+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8ae646e7f79ffa8911f259e72d5a763ed643abf516fcae9d654f87403ccaa41f"
     },
     {
@@ -5379,11 +5379,11 @@
       "deadlineText": "2026-08-28 - 2026-09-10 11:00",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:42:43.437421+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:11.999349+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T10:54:03.380802+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "781f8162eaf5931dc65966028676ddc1dab84f972438882fe24603d5de5788b8"
     },
     {
@@ -5412,11 +5412,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.894608+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.804364+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T11:14:42.120758+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "d97cf0414d90f1030ef570ea3514448e915ff8c6ad139bab7ace8d17b2d25f19"
     },
     {
@@ -5445,11 +5445,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.898958+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.806340+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T11:14:42.120758+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2eaf46c176dd43db9935cdacdddf6a88f8a404c8abfa101fff6d6354309b54a7"
     },
     {
@@ -5478,11 +5478,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.901566+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.807971+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T11:14:42.120758+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "fe003b538c3c2262d948e86f5ffa509ebc76d36fb9382b62e40236372948811d"
     },
     {
@@ -5511,11 +5511,11 @@
       "deadlineText": "마감일 미공개",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.903005+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.808731+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T11:14:42.120758+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9869e7632a95bea22c736701fc1b9ba28c97e419e44e03715377e8d6759cfbf8"
     },
     {
@@ -5544,11 +5544,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.846369+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.717191+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0f968d373d10a715d525396a01c3ed7abcad49fd4233d9ac0a2e99421b3e508c"
     },
     {
@@ -5577,11 +5577,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.846720+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.717520+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1278aa962f5666497634f760734749a149cc0aaa8bd38db803a408437d6bc44b"
     },
     {
@@ -5610,11 +5610,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.847095+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.717933+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "895b98047b75372b20e04d6d42779a040c89f4a4c6267340cfc24a7dfe930073"
     },
     {
@@ -5643,11 +5643,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:17.847455+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:12.718296+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "8d0cad82979ca1ea4c53ca339c14c9043915ec3df57b90b2c80b23329a036704"
     },
     {
@@ -5676,11 +5676,11 @@
       "deadlineText": "2026-09-15 17:00 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:44:36.304293+00:00",
+      "lastVerifiedAt": "2026-09-11T01:18:33.780044+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6a8dea6af1a46b6b212648ff5e6ff7419c966c0d13c71987993e4e5c60abc42d"
     },
     {
@@ -5709,11 +5709,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:05.250871+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:52.396557+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0f31f18ac35b3f208f5f9f892181a9c8310a0cfa0136ce807506fdf919255b14"
     },
     {
@@ -5742,11 +5742,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.848205+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.758751+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f26906da953de35a8f8b6248f68cf02f590ed54777f7d5b106897cf61eb5dde6"
     },
     {
@@ -5775,11 +5775,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.849172+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.759698+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "05ac70ad414a9088bc561277f25cbbe717cbab6f634f692dfd9eb75568977c81"
     },
     {
@@ -5808,11 +5808,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.853498+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.763712+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0ccee2c3afdcd0686086453505fe2c7df1780fe5c40a4cb25be218ce83fe8851"
     },
     {
@@ -5841,11 +5841,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.855387+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.765200+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1f25d3a4001229d0e39dd9c7d40d7c2f19926605c62e61e3427a492e2d780fb7"
     },
     {
@@ -5874,11 +5874,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.856459+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.766274+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a6d4646c80b497f22e911adbaaf866a2cca110c99850fd49b74c99cc8db45ba4"
     },
     {
@@ -5907,11 +5907,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.859038+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.768564+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c0744bc41d1498c7a4a118a3261bdb846e7928abbadee16d7086d08554a49120"
     },
     {
@@ -5940,11 +5940,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.861541+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.770984+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "83c49ccf63d7dc8c6ee31733b017e6d00613a43b2ee871f3408c209dd5ecb0ee"
     },
     {
@@ -5973,11 +5973,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.864817+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.774200+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f2b5481400f80a84e42414fe9f38df44d6eba8415f1023de3786726e7f818ef6"
     },
     {
@@ -6006,11 +6006,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.867855+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.777196+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "6e6349f5f31dff15ca2a73c3d72389ff69eb016b2fb9d7a0a2d505b6944e1307"
     },
     {
@@ -6039,11 +6039,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.870678+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.779939+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a4cabc73164e51c8bde22cea9fdb714d30badc760a55ab255d1644136b0ab597"
     },
     {
@@ -6072,11 +6072,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.872611+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.781818+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "cd58955649ad672c7e0460143c59a99428617dc6ad0bc991515d863432c635a0"
     },
     {
@@ -6105,11 +6105,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.873558+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.782739+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "390d665a670c3ad22c949d9fb0278f324446aa265ef0dce4669bfa196f8d2da0"
     },
     {
@@ -6138,11 +6138,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.878462+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.786884+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "eb8821bf2670e79cf2a951674ad2af731c4cf30e9a6cb4a202d22faab28a099e"
     },
     {
@@ -6171,11 +6171,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.882338+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.790197+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ced6cca783603e8941a4d51ec3fe1f4ab0f71c5b297742456353cd401fa0e3a9"
     },
     {
@@ -6204,11 +6204,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.887830+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.794864+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "cfda269121f2d6fd77af59f838e92e459c89223f677e059b98058a139e6ff217"
     },
     {
@@ -6237,11 +6237,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.419117+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.763093+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "10a7e0f8731e5fdf0b5ea4888b5b29afd36d9da7c64a98678db625a2a8d4ae30"
     },
     {
@@ -6270,11 +6270,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.421309+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.763766+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a93308d133dfa7c1f9673a1126b990b14be82f944705cfa284738863396e4651"
     },
     {
@@ -6303,11 +6303,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.687901+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.007310+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "600c553d0f6d8ff8dd9f85963a92b0deca408022544363c7b462645950a62437"
     },
     {
@@ -6336,11 +6336,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.689163+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.008756+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "fe9edc55a865f95f9d29d6fe5ecc61727bbcdaad7028d0de1875e00b70dc06cc"
     },
     {
@@ -6369,11 +6369,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.689967+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.009695+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a7be1cfba105f8394523c727791c387510f09d1fe8e37faf5d858b85205addf2"
     },
     {
@@ -6402,11 +6402,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.690412+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.010430+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "21ff1add5e17bec73aae54439d4103f25ac691d4e9db25516c7106917fa54cee"
     },
     {
@@ -6435,11 +6435,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.690939+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.011220+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4b0cf1bd804a7fe9265c7e15c7c7bfa07960a385b4d5564d0969b209f28ac01c"
     },
     {
@@ -6468,11 +6468,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.691502+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.012026+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "76a14694e2570cd249bf36fde5b224569d53d0f5239f23c8784d8760d7eeaa06"
     },
     {
@@ -6501,11 +6501,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.692514+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.013266+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "c1c253bea1be70cc1578011bffba9f992ec2a63385e7a5cab6d55986ac487369"
     },
     {
@@ -6534,11 +6534,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.709997+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.031693+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9abdb58364f56afb8121fe3e5623a426d80dd484d7e3bf110573401cdf187aa7"
     },
     {
@@ -6567,11 +6567,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.693237+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.014027+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "af7e95006c5cc84a0e30a0b248acbfd9ef1f61b4e2117f0294857f3ba57dc136"
     },
     {
@@ -6600,11 +6600,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.711087+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.032747+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b78b6c1f7a1e9ee9b1818344a8ef17724963f34908ead5ee832bb370c2c4f302"
     },
     {
@@ -6633,11 +6633,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.694475+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.015244+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b445ec87e2dad9b03c6dae3cc9c34c999eae7dc6ceddba9f7f293d69bc30239a"
     },
     {
@@ -6666,11 +6666,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.694939+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.015813+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "19aa208612e615580dc2a6d3feef70621524ec5b67857bedd6a1ace64a2be22e"
     },
     {
@@ -6699,11 +6699,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.695665+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.016443+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a5d5f368219913e95585e5a246d75c388ec10c65c279c62ae5bdb04e7e62160b"
     },
     {
@@ -6732,11 +6732,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.696844+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.017834+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ff9b7409d74f59b57db562f43c5a5f6793928de82df2f2cac590a3572d40d34b"
     },
     {
@@ -6765,11 +6765,11 @@
       "deadlineText": "마감일 미공개",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.716655+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.038053+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7758a428946b8e14075f4ae6be5346b72deb6c3ed5767f31c76f2e6e6721d8a0"
     },
     {
@@ -6798,11 +6798,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.697560+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.018598+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "af7e95006c5cc84a0e30a0b248acbfd9ef1f61b4e2117f0294857f3ba57dc136"
     },
     {
@@ -6831,11 +6831,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.698374+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.019297+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T12:54:35.829775+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7d5183f2c06ec9a9b97b3f6ced84531212f13ddf75c931c038ba30863e0bf642"
     },
     {
@@ -6864,11 +6864,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.890460+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.796502+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "2cb248522293e9b83d5a59cb70f22be813093da7ae897cec5973004348a36a2f"
     },
     {
@@ -6897,11 +6897,11 @@
       "deadlineText": "2026-09-21 23:59 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:39.214258+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:18.999487+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9131c9e52a10415d195c7186923884c38391a4ef5ce4b2df7ca028f9afb6438f"
     },
     {
@@ -6930,11 +6930,11 @@
       "deadlineText": "2026-09-21 23:59 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:39.215037+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:19.000373+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "994f6c1959f0ebb8780197f0a9f7c3bfa8ce4aa0d95fa4e567078720ddbbc3b2"
     },
     {
@@ -6963,11 +6963,11 @@
       "deadlineText": "2026-09-21 23:59 KST",
       "status": "excluded",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:39.215927+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:19.001277+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f5b7781dabe8844e96a6f7d4bd497f3abf21f2a74b5746aa6d4a159af0e8217a"
     },
     {
@@ -6996,11 +6996,11 @@
       "deadlineText": "2026-09-21 23:59 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:39.216795+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:19.002062+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "3b84eaa43382879feb6aa84c25d082f30aee0a38ff6b2c240ac3128eecfef54a"
     },
     {
@@ -7029,11 +7029,11 @@
       "deadlineText": "2026-09-21 23:59 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:39.217664+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:19.002932+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a3aef3f96262dc9898b6949240d9711435e9e38d647747277d6ba10aadc94f26"
     },
     {
@@ -7062,11 +7062,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.698924+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.019830+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:10:13.405244+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1c6b3dbe8ba9092f26560939287f11831b703d14281eb9fb9d8b064f29f902f7"
     },
     {
@@ -7095,11 +7095,11 @@
       "deadlineText": "마감일 미공개",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:24.199428+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:38.403187+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:22:20.180260+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a88d99fac24b2058de85fd972111b673898bd7e0898c25b6994c9bbc49f60877"
     },
     {
@@ -7128,11 +7128,11 @@
       "deadlineText": "마감일 미공개",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:24.199114+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:38.402641+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:22:20.180260+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e14341ce6effcc8344da1119fd0a2b0b3d74cc9a52c897d1746196a20514e416"
     },
     {
@@ -7161,11 +7161,11 @@
       "deadlineText": "마감일 미공개",
       "status": "closed",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:24.198197+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:38.402019+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:22:20.180260+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "e9c29e634535cf76a3a3b30d4069acdfd2927b2c3bdc08c52db44cd67719f7fd"
     },
     {
@@ -7194,11 +7194,11 @@
       "deadlineText": "2026-09-15 17:00 KST",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:44:36.304901+00:00",
+      "lastVerifiedAt": "2026-09-11T01:18:33.780704+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-08T13:37:11.628256+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7049c53824cf0a206d419534b892e877498c8d19a4d785b77e0c15ad203bdd7c"
     },
     {
@@ -7227,11 +7227,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.274098+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.221499+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "fb5e407dac7fae923ecefe6e23bbf161ab01560c59fa98b5e5d4a0013ba08a4b"
     },
     {
@@ -7260,11 +7260,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:34:05.275573+00:00",
+      "lastVerifiedAt": "2026-09-11T01:08:39.231002+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "4d55bdfb024f0cb87b5eec655992e6bd1dcb98a051f9151917fcb43e68e457e9"
     },
     {
@@ -7293,11 +7293,11 @@
       "deadlineText": "20260909~20260918",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.540322+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.710599+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "7d5aef9fc51a23ff6190f902c74514e60c9bc238bd88fbcf6ddb07ae10279b99"
     },
     {
@@ -7326,11 +7326,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.892578+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.798216+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "621df57438370200054730193c80b00121c3e5f665f866a4d89cd687db972ea7"
     },
     {
@@ -7359,11 +7359,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:06.093078+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:53.215536+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f1c4898030d50b10c04ff30a57bdcc594b9cfe9a0ed8107adeec10565bf2d335"
     },
     {
@@ -7392,11 +7392,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:37:07.387831+00:00",
+      "lastVerifiedAt": "2026-09-11T01:11:54.594372+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9fa0a5a53e40606e6e93dd12e7a0b5769339da1e0aaf90a1892ecd0f1e543fb5"
     },
     {
@@ -7425,11 +7425,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.424579+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.765476+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "10a7e0f8731e5fdf0b5ea4888b5b29afd36d9da7c64a98678db625a2a8d4ae30"
     },
     {
@@ -7458,11 +7458,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.426109+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:22.766183+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a93308d133dfa7c1f9673a1126b990b14be82f944705cfa284738863396e4651"
     },
     {
@@ -7491,11 +7491,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:30.921775+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:23.315371+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a32b73e33f1fa76a1c45d705337ce537ff72a19aefc6896c64d830b7f2836d80"
     },
     {
@@ -7524,11 +7524,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.699563+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.020769+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "1ff2e6e2e68ed138a45f3d4170c01a07af805afbc5415275f308b5be41f9dc50"
     },
     {
@@ -7557,11 +7557,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.700222+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.021255+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-09T22:01:15.008724+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "9dbfdd0da29b5c75be50c6fb5922bf46bc33d6cef5a595b77d4d82c660732667"
     },
     {
@@ -7590,11 +7590,11 @@
       "deadlineText": "20260910~20260917",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.362001+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:26.535229+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "3a70781b5912cc269f9a7dbcf72f3c5ba755e5542ce9c7d2273e77a2113e942a"
     },
     {
@@ -7623,11 +7623,11 @@
       "deadlineText": "20260911~20261016",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.925156+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.077882+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "f54cce12ce25688f5236f9fbc6b683caa059550ce0d0166511332e32d6ba525a"
     },
     {
@@ -7656,11 +7656,11 @@
       "deadlineText": "20260910~20260915",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:35:50.925868+00:00",
+      "lastVerifiedAt": "2026-09-11T01:10:27.078710+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "b2d0b0ddad4c89d9cad9fe64ad259e5b0bb02847e2567d388c1b2514a6230ded"
     },
     {
@@ -7689,11 +7689,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.917707+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.799394+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "834706e034a77f36bd01a99ba117910400888cecf301c47a0730dabe2d6b0837"
     },
     {
@@ -7722,11 +7722,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.919374+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.800689+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0fc94b78d9ec037d3cf1479cb82e812a9afbef8870f465df0d59d2a2d208f17a"
     },
     {
@@ -7755,11 +7755,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:38:00.923168+00:00",
+      "lastVerifiedAt": "2026-09-11T01:12:17.802930+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0e8d12525d1128721cbf21ac45d13b53ccbdba19ce26fc82563da5286c0b8baf"
     },
     {
@@ -7788,11 +7788,11 @@
       "deadlineText": "2026-09-30 (마감 시각 미공개)",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:39:34.160414+00:00",
+      "lastVerifiedAt": "2026-09-11T01:13:54.321968+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "ae244ecada7329b52742a2fb5e6d4880046e089e6dd2384498c37d46692a0509"
     },
     {
@@ -7821,11 +7821,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:31.497778+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:23.316585+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "a825cb47e23edc947dca7bcd86a4934bce03548cb06abbde3fc7e3651f19f03c"
     },
     {
@@ -7854,11 +7854,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:31.500281+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:23.317637+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "0d8caaecb39ea9d76e2db7c0b562cb2dcfc7218abebbbbbc11e65754e16ea32e"
     },
     {
@@ -7887,11 +7887,11 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:31.734315+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:23.318500+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "02648f04849eada9274ffe04a4942f6f945e795fd64800f4e43a4ea079291991"
     },
     {
@@ -7920,11 +7920,11 @@
       "deadlineText": "채용 시 마감",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:43:31.736809+00:00",
+      "lastVerifiedAt": "2026-09-11T01:17:23.319452+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "10d40e46f4e9f867d2782c452a5f7ea1e3a2cd7eb83d78cbb162a51461bff895"
     },
     {
@@ -7953,15 +7953,297 @@
       "deadlineText": "마감일 미공개",
       "status": "review",
       "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
-      "lastVerifiedAt": "2026-09-10T14:46:21.705819+00:00",
+      "lastVerifiedAt": "2026-09-11T01:20:38.022019+00:00",
       "screeningMode": "astra-error",
       "screeningVersion": "2026-09-08.7",
       "firstSeenAt": "2026-09-10T14:34:04.146635+00:00",
-      "lastSeenAt": "2026-09-10T14:34:04.146635+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
       "contentHash": "d8c943b989d9c6266b910467b0ff3ad21d71974e48b8beb59d06f9d738940a6b"
+    },
+    {
+      "id": "jasoseol-f7bd372541fc0b3b",
+      "roleKey": "",
+      "sourceId": "jasoseol",
+      "sourceUrl": "https://jasoseol.com/recruit/106175",
+      "applicationUrl": "https://ajnet.recruiter.co.kr/career/jobs",
+      "title": "9월 수시채용 (신입/경력) · 리스크관리 (경력)",
+      "company": "AJ네트웍스",
+      "country": "KR",
+      "category": "금융리스크",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "신입",
+      "eligibility": "9월 수시채용 (신입/경력) · 모집분야: 통합구매 (신입) / 파렛트 B2B 영업(신입) / 파렛트 회수 (신입) / IT장비 B2B영업 (신입) / 로봇설치 및 유지보수 (신입) / 고소장비 B2B영업 (신입) / 지게차 B2B영업 (신입) / MRO 상품 기획 (신입) / 회계(경력) / 경영관리 (경력) / 통합구매 (경력) / 리스크관리 (경력) / 채권관리 (경력) / 파렛트 B2B 영업(경력) / 파렛트 회수 (경력) / 자산회수 관리(경력) / 해외법인 경영기획 (경력) / 글로벌 SCM (경력) / 해외영업 (경력) / IT장비 B2B영업 (경력) / IT장비 B2G영업 (경력) / AI인프라 영업(경력) / 전략마케팅 (팀장급) / 상품기획 (경력) / 로봇SI (경력) / 로봇설치 및 유지보수 (경력) / 로봇유지보수접수 관제(경력) / 고소장비 B2B영업 (경력) / 지게차 B2B영업 (경력) / MRO 상품 기획 (경력)",
+      "languageStatus": "한국어 · 추가 언어는 원문 확인",
+      "visaStatus": "국내 채용",
+      "postedAt": "2026-09-11",
+      "startDate": "2026-09-11",
+      "deadlineDate": "2026-09-20",
+      "deadlineAt": "2026-09-20T23:59:00.000+09:00",
+      "deadlineTimezone": "Asia/Seoul",
+      "deadlineKind": "date",
+      "deadlineText": "마감일 미공개",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:11:58.063089+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "348330f3c7f948785a2dab2ff4042321011104a9b9a3d9f40ec53fcf4d5211b7"
+    },
+    {
+      "id": "linkedin-cad7d142f92488e4",
+      "roleKey": "",
+      "sourceId": "linkedin",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/4463924083",
+      "applicationUrl": "",
+      "title": "2027 Quantitative Analytics Associate Graduate Programme London",
+      "company": "Barclays",
+      "country": "GB",
+      "category": "퀀트 리서치",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "신입",
+      "eligibility": "If you're a recent graduate or soon-to-be graduate, join us and unlock a world of carefully curated experiences, knowledge, and connections to shape your career. Along the way, you can expect all the training and support you need to make your mark on the world. Put simply, we’ll empower you to help determine how we do things and where we go next. Our graduates are a vital part of our success. If you’re curious, creative, and ambitious, this is a world in which you can truly belong. · Why the Quant Graduate Programme? · As a Graduate in Risk Quantitative Analytics (Risk QA), you will join a group of specialised modellers and developers powering Barclay’s ability to manage financial risk. From day one, you’ll be part of a team that uses statistical methods, AI techniques, and coding strategies to build the tools and models Barclays uses to make big decisions. Along the way, you’ll collaborate with colleagues across risk, finance, global markets, and technology - gaining exposure to how different parts of the business come together to navigate market shifts and meet regulatory demands. · To be considered for this opportunity, you'll be motivated with a strong degree or expected degree achieved before June 2027. · You’ll have strong mathematical and programming skills, ideally in C/C++ or Python, along with logical thinking, creative problem solving and strong communication skills. · Barclays will accept applications from candidates who require visa sponsorship to work in the UK ",
+      "languageStatus": "읽은 원문에 현지어 필수 조건 명시 없음",
+      "visaStatus": "취업허가·스폰서십은 개인 조건과 원문 확인 필요",
+      "postedAt": "",
+      "startDate": null,
+      "deadlineDate": null,
+      "deadlineAt": null,
+      "deadlineTimezone": "Europe/London",
+      "deadlineKind": "unknown",
+      "deadlineText": "마감일 미공개",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:12:17.820468+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "ec8b72161e194e0b7f49df3fc7d2ddf77feb6ee1ba54e6744c9d0000282e4fe8"
+    },
+    {
+      "id": "linkedin-9d6d396dc34ee753",
+      "roleKey": "",
+      "sourceId": "linkedin",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/4463934037",
+      "applicationUrl": "",
+      "title": "2027 Quantitative Analytics Associate Graduate Programme Glasgow",
+      "company": "Barclays",
+      "country": "KR",
+      "category": "퀀트 리서치",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "신입",
+      "eligibility": "If you're a recent graduate or soon-to-be graduate, join us and unlock a world of carefully curated experiences, knowledge, and connections to shape your career. Along the way, you can expect all the training and support you need to make your mark on the world. Put simply, we’ll empower you to help determine how we do things and where we go next. Our graduates are a vital part of our success. If you’re curious, creative, and ambitious, this is a world in which you can truly belong. · Why the Quant Graduate Programme? · As a Graduate in Risk Quantitative Analytics (Risk QA), you will join a group of specialised modellers and developers powering Barclay’s ability to manage financial risk. From day one, you’ll be part of a team that uses statistical methods, AI techniques, and coding strategies to build the tools and models Barclays uses to make big decisions. Along the way, you’ll collaborate with colleagues across risk, finance, global markets, and technology - gaining exposure to how different parts of the business come together to navigate market shifts and meet regulatory demands. · To be considered for this opportunity, you'll be motivated with a strong degree or expected degree achieved before June 2027. · You’ll have strong mathematical and programming skills, ideally in C/C++ or Python, along with logical thinking, creative problem solving and strong communication skills. · Barclays will accept applications from candidates who require visa sponsorship to work in the UK ",
+      "languageStatus": "한국어 · 추가 언어는 원문 확인",
+      "visaStatus": "국내 채용",
+      "postedAt": "",
+      "startDate": null,
+      "deadlineDate": null,
+      "deadlineAt": null,
+      "deadlineTimezone": "Asia/Seoul",
+      "deadlineKind": "unknown",
+      "deadlineText": "마감일 미공개",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:12:17.826396+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "a2a32351ff86b02b0e81af51c125610ef0f2999ebffde7cf7e02e321ced6f954"
+    },
+    {
+      "id": "linkedin-612163b26d35b1ac",
+      "roleKey": "",
+      "sourceId": "linkedin",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/4381837226",
+      "applicationUrl": "",
+      "title": "Quantitative Researcher - HFT Commodity Futures",
+      "company": "IMC Trading",
+      "country": "HK",
+      "category": "퀀트 리서치",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "확인 필요",
+      "eligibility": "Excellent programming skills in at least one language (Python preferred)",
+      "languageStatus": "읽은 원문에 현지어 필수 조건 명시 없음",
+      "visaStatus": "취업허가·스폰서십은 개인 조건과 원문 확인 필요",
+      "postedAt": "",
+      "startDate": null,
+      "deadlineDate": null,
+      "deadlineAt": null,
+      "deadlineTimezone": "Asia/Hong_Kong",
+      "deadlineKind": "unknown",
+      "deadlineText": "마감일 미공개",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:12:17.834142+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "0ceea826e9882118d3473c93403448e913f6b099c87f783a2e7c0f3b11415cb3"
+    },
+    {
+      "id": "jobkorea-f7321779873a9b51",
+      "roleKey": "",
+      "sourceId": "jobkorea",
+      "sourceUrl": "https://www.jobkorea.co.kr/Recruit/GI_Read/49959467?Oem_Code=C1&logpath=1&stext=%EC%9E%90%EC%82%B0%EC%9A%B4%EC%9A%A9+%EC%9D%B8%ED%84%B4&listno=2&sc=630",
+      "applicationUrl": "",
+      "title": "[종각역/사무/3개월/대학생]미래에셋자산운용 경영지원부문 사무직 채용",
+      "company": "㈜아이피시",
+      "country": "KR",
+      "category": "자산운용·자산배분",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "신입",
+      "eligibility": "지원자격: 경력 / 경력무관 / 학력 / 학력무관 / 로그인 / 하고 비슷한 조건의 AI추천공고를 확인해 보세요! / TOP / 궁금해요 / 접수기간 · 방법 / 마감일은 기업의 사정으로 인해 조기 마감 또는 변경될 수 있습니다 / 남은기간 / 시작일",
+      "languageStatus": "한국어 · 추가 언어는 원문 확인",
+      "visaStatus": "국내 채용",
+      "postedAt": "2026-09-09",
+      "startDate": null,
+      "deadlineDate": "2026-10-09",
+      "deadlineAt": null,
+      "deadlineTimezone": "Asia/Seoul",
+      "deadlineKind": "date",
+      "deadlineText": "마감일 미공개",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:17:23.322382+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "77f229e4cb64b33f1cacf64a14e560eebd20d9902b0a6d61113e2b6681b9a52e"
+    },
+    {
+      "id": "jobkorea-710efae34128113d",
+      "roleKey": "",
+      "sourceId": "jobkorea",
+      "sourceUrl": "https://www.jobkorea.co.kr/Recruit/GI_Read/49894327?Oem_Code=C1&logpath=1&stext=%EB%A6%AC%EC%8A%A4%ED%81%AC&listno=11&sc=630",
+      "applicationUrl": "",
+      "title": "리스크제로에서 시스템 기획자를 모십니다.",
+      "company": "㈜리스크제로",
+      "country": "KR",
+      "category": "금융리스크",
+      "section": "finance",
+      "recruitmentPosition": "/직책",
+      "requiredExperience": "",
+      "level": "확인 필요",
+      "eligibility": "지원자격: 경력 / (3년이상) / 학력 / 학력무관 / 스킬 / 와이어프레임, IA, WBS, 기능정의서 / 핵심역량 / 계획성 / , / 성실성 / 꼼꼼함 / 스트레스관리 / 적응성 / 성장지향성 / 이 기업과 나의 적합도 체크 / 핵심 역량 / 회사에서 중요하게 생각하는 역량과 가치가 / 나와 맞는지 알아보기 / 회사 / 나 / 지금 / 로그인 / 하면 나와 회사의 적합도를 비교해볼 수 있어요. / 하고 비슷한 조건의 AI추천공고를 확인해 보세요! / TOP / 궁금해요 / 접수기간 · 방법 / 마감일은 기업의 사정으로 인해 조기 마감 또는 변경될 수 있습니다 / 남은기간 / 시작일",
+      "languageStatus": "한국어 · 추가 언어는 원문 확인",
+      "visaStatus": "국내 채용",
+      "postedAt": "2026-09-01",
+      "startDate": null,
+      "deadlineDate": "2026-10-31",
+      "deadlineAt": null,
+      "deadlineTimezone": "Asia/Seoul",
+      "deadlineKind": "date",
+      "deadlineText": "채용 시 마감",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:17:23.330306+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "a825cb47e23edc947dca7bcd86a4934bce03548cb06abbde3fc7e3651f19f03c"
+    },
+    {
+      "id": "jobkorea-f3b9d97560cba830",
+      "roleKey": "",
+      "sourceId": "jobkorea",
+      "sourceUrl": "https://www.jobkorea.co.kr/Recruit/GI_Read/49692015?Oem_Code=C1&logpath=1&stext=%EB%A6%AC%EC%8A%A4%ED%81%AC&listno=13&sc=630",
+      "applicationUrl": "",
+      "title": "[NHN KCP] 리스크관리 및 가맹점 응대 담당(팀장급)",
+      "company": "엔에이치엔케이씨피㈜ ",
+      "country": "KR",
+      "category": "금융리스크",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "확인 필요",
+      "eligibility": "지원자격: 경력 / (5년이상) / 학력 / 초대졸이상 / 스킬 / 로그인 / 하고 비슷한 조건의 AI추천공고를 확인해 보세요! / TOP / 궁금해요 / 접수기간 · 방법 / 마감일은 기업의 사정으로 인해 조기 마감 또는 변경될 수 있습니다 / 남은기간 / 시작일",
+      "languageStatus": "한국어 · 추가 언어는 원문 확인",
+      "visaStatus": "국내 채용",
+      "postedAt": "2026-07-31",
+      "startDate": null,
+      "deadlineDate": "2026-09-29",
+      "deadlineAt": null,
+      "deadlineTimezone": "Asia/Seoul",
+      "deadlineKind": "date",
+      "deadlineText": "마감일 미공개",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:17:23.332066+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "0d8caaecb39ea9d76e2db7c0b562cb2dcfc7218abebbbbbc11e65754e16ea32e"
+    },
+    {
+      "id": "naver-kkbjob-6b3103d783cda056",
+      "roleKey": "",
+      "sourceId": "naver-kkbjob",
+      "sourceUrl": "https://cafe.naver.com/f-e/cafes/15279069/articles/649394",
+      "applicationUrl": "",
+      "title": "뮤어우즈벤처스(유) 투자본부 인턴 채용공고",
+      "company": "회사명 원문 확인",
+      "country": "KR",
+      "category": "자산운용·자산배분",
+      "section": "finance",
+      "recruitmentPosition": "",
+      "requiredExperience": "",
+      "level": "인턴",
+      "eligibility": "지원자격:  아래 조건을 모두 충족하는 자 · 우대사항(필수 아님): ​",
+      "languageStatus": "한국어 · 추가 언어는 원문 확인",
+      "visaStatus": "국내 채용",
+      "postedAt": "",
+      "startDate": null,
+      "deadlineDate": null,
+      "deadlineAt": null,
+      "deadlineTimezone": "Asia/Seoul",
+      "deadlineKind": "rolling",
+      "deadlineText": "채용 시 마감",
+      "status": "review",
+      "evidence": "Astra 심사 실패 · 반복된 API 오류로 추가 유료 요청을 중단했습니다. 설정을 확인하세요.",
+      "lastVerifiedAt": "2026-09-11T01:20:38.027610+00:00",
+      "screeningMode": "astra-error",
+      "screeningVersion": "2026-09-08.7",
+      "firstSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "lastSeenAt": "2026-09-11T01:08:38.802968+00:00",
+      "contentHash": "395ed35b14316f3e1c1d4029f5dec92548be7976117101efb86107c9fb4bd19e"
     }
   ],
   "sources": [
+    {
+      "id": "janestreet",
+      "name": "Jane Street 공식 채용",
+      "url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "adapter": "greenhouse",
+      "board": "janestreet",
+      "company": "Jane Street",
+      "coverageLimit": "공식 공개 API에 있는 지정 6개국 공고",
+      "status": "ok",
+      "reason": "공식 공개 채용 API 전체 230개에서 지정 국가·직무 후보 선별.",
+      "lastAttemptAt": "2026-09-11T01:08:39.247606+00:00",
+      "lastSuccessAt": "2026-09-11T01:08:39.247607+00:00",
+      "found": 0,
+      "excluded": 12,
+      "review": 20,
+      "inspected": 131,
+      "listPages": 1
+    },
     {
       "id": "worldquant",
       "name": "WorldQuant 공식 채용",
@@ -7972,30 +8254,12 @@
       "coverageLimit": "공식 공개 API에 있는 지정 6개국 공고",
       "status": "ok",
       "reason": "공식 공개 채용 API 전체 102개에서 지정 국가·직무 후보 선별.",
-      "lastAttemptAt": "2026-09-10T14:34:05.250539+00:00",
-      "lastSuccessAt": "2026-09-10T14:34:05.250540+00:00",
+      "lastAttemptAt": "2026-09-11T01:08:39.480111+00:00",
+      "lastSuccessAt": "2026-09-11T01:08:39.480112+00:00",
       "found": 0,
       "excluded": 7,
       "review": 9,
       "inspected": 23,
-      "listPages": 1
-    },
-    {
-      "id": "janestreet",
-      "name": "Jane Street 공식 채용",
-      "url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "adapter": "greenhouse",
-      "board": "janestreet",
-      "company": "Jane Street",
-      "coverageLimit": "공식 공개 API에 있는 지정 6개국 공고",
-      "status": "ok",
-      "reason": "공식 공개 채용 API 전체 229개에서 지정 국가·직무 후보 선별.",
-      "lastAttemptAt": "2026-09-10T14:34:05.295559+00:00",
-      "lastSuccessAt": "2026-09-10T14:34:05.295560+00:00",
-      "found": 0,
-      "excluded": 12,
-      "review": 20,
-      "inspected": 131,
       "listPages": 1
     },
     {
@@ -8006,10 +8270,10 @@
       "coverageLimit": "관련 키워드 11개 × 지정 페이지 한도. 전체 게시판을 완전 탐색한 결과는 아닙니다.",
       "status": "partial",
       "reason": "191개 상세 확인, 0개 상세 실패. 키워드별 최대 3페이지.",
-      "lastAttemptAt": "2026-09-10T14:35:52.391177+00:00",
-      "lastSuccessAt": "2026-09-10T14:35:52.391179+00:00",
-      "found": 2,
-      "excluded": 25,
+      "lastAttemptAt": "2026-09-11T01:10:28.482702+00:00",
+      "lastSuccessAt": "2026-09-11T01:10:28.482706+00:00",
+      "found": 3,
+      "excluded": 23,
       "review": 16,
       "inspected": 191,
       "listPages": 3
@@ -8022,7 +8286,7 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "ok",
       "reason": "지정 게시판 254 열람. kkbjob과 같은 카페의 자격증 게시판입니다. 채용 7개 게시판 결과는 네이버 kkbjob 카페에 통합합니다.",
-      "lastAttemptAt": "2026-09-10T14:35:55.974223+00:00",
+      "lastAttemptAt": "2026-09-11T01:10:31.517630+00:00",
       "lastSuccessAt": "2026-09-08T11:10:31.422401+00:00",
       "found": 0,
       "excluded": 0,
@@ -8038,7 +8302,7 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
       "reason": "목록 5개 · 상세 0개 확인, 접근·본문 확인 실패 10개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:36:14.816624+00:00",
+      "lastAttemptAt": "2026-09-11T01:10:47.699006+00:00",
       "lastSuccessAt": null,
       "found": 0,
       "excluded": 0,
@@ -8047,36 +8311,36 @@
       "listPages": 5
     },
     {
-      "id": "jasoseol",
-      "name": "자소설닷컴",
-      "url": "https://jasoseol.com/recruit",
-      "adapter": "public",
-      "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
-      "status": "partial",
-      "reason": "목록 6개 · 상세 75개 확인, 접근·본문 확인 실패 4개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:37:17.839108+00:00",
-      "lastSuccessAt": "2026-09-10T14:37:17.839114+00:00",
-      "found": 0,
-      "excluded": 0,
-      "review": 11,
-      "inspected": 75,
-      "listPages": 6
-    },
-    {
       "id": "fcb",
       "name": "FCB 금융학회",
       "url": "https://www.fcbfi.org/blog",
       "adapter": "public",
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
-      "reason": "목록 10개 · 상세 32개 확인, 접근·본문 확인 실패 2개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:37:17.850566+00:00",
-      "lastSuccessAt": "2026-09-10T14:37:17.850576+00:00",
+      "reason": "목록 10개 · 상세 32개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
+      "lastAttemptAt": "2026-09-11T01:11:12.719881+00:00",
+      "lastSuccessAt": "2026-09-11T01:11:12.719882+00:00",
       "found": 0,
       "excluded": 1,
       "review": 15,
       "inspected": 32,
       "listPages": 10
+    },
+    {
+      "id": "jasoseol",
+      "name": "자소설닷컴",
+      "url": "https://jasoseol.com/recruit",
+      "adapter": "public",
+      "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
+      "status": "partial",
+      "reason": "목록 6개 · 상세 76개 확인, 접근·본문 확인 실패 4개. 목록 최대 12개 / 상세 최대 100개.",
+      "lastAttemptAt": "2026-09-11T01:12:06.163066+00:00",
+      "lastSuccessAt": "2026-09-11T01:12:06.163077+00:00",
+      "found": 0,
+      "excluded": 0,
+      "review": 12,
+      "inspected": 76,
+      "listPages": 6
     },
     {
       "id": "linkedin",
@@ -8085,13 +8349,13 @@
       "adapter": "public",
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "ok",
-      "reason": "목록 5개 · 상세 66개 확인, 접근·본문 확인 실패 0개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:38:00.932204+00:00",
-      "lastSuccessAt": "2026-09-10T14:38:00.932205+00:00",
-      "found": 2,
-      "excluded": 8,
-      "review": 55,
-      "inspected": 66,
+      "reason": "목록 5개 · 상세 71개 확인, 접근·본문 확인 실패 0개. 목록 최대 12개 / 상세 최대 100개.",
+      "lastAttemptAt": "2026-09-11T01:12:17.840884+00:00",
+      "lastSuccessAt": "2026-09-11T01:12:17.840885+00:00",
+      "found": 1,
+      "excluded": 11,
+      "review": 58,
+      "inspected": 71,
       "listPages": 5
     },
     {
@@ -8102,8 +8366,8 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
       "reason": "목록 4개 · 상세 3개 확인, 접근·본문 확인 실패 8개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:38:24.199436+00:00",
-      "lastSuccessAt": "2026-09-10T14:38:24.199437+00:00",
+      "lastAttemptAt": "2026-09-11T01:12:38.403198+00:00",
+      "lastSuccessAt": "2026-09-11T01:12:38.403200+00:00",
       "found": 3,
       "excluded": 0,
       "review": 0,
@@ -8118,8 +8382,8 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
       "reason": "목록 12개 · 상세 1개 확인, 접근·본문 확인 실패 12개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:38:39.213417+00:00",
-      "lastSuccessAt": "2026-09-10T14:38:39.213419+00:00",
+      "lastAttemptAt": "2026-09-11T01:13:18.998117+00:00",
+      "lastSuccessAt": "2026-09-11T01:13:18.998118+00:00",
       "found": 0,
       "excluded": 0,
       "review": 1,
@@ -8135,8 +8399,8 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "ok",
       "reason": "목록 1개 · 상세 1개 확인, 접근·본문 확인 실패 0개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:38:39.217669+00:00",
-      "lastSuccessAt": "2026-09-10T14:38:39.217670+00:00",
+      "lastAttemptAt": "2026-09-11T01:13:19.002940+00:00",
+      "lastSuccessAt": "2026-09-11T01:13:19.002942+00:00",
       "found": 0,
       "excluded": 1,
       "review": 4,
@@ -8152,13 +8416,32 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "ok",
       "reason": "목록 1개 · 상세 1개 확인, 접근·본문 확인 실패 0개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:38:39.476446+00:00",
-      "lastSuccessAt": "2026-09-10T14:38:39.476456+00:00",
+      "lastAttemptAt": "2026-09-11T01:13:19.235758+00:00",
+      "lastSuccessAt": "2026-09-11T01:13:19.235762+00:00",
       "found": 0,
       "excluded": 0,
       "review": 0,
       "inspected": 1,
       "listPages": 1
+    },
+    {
+      "id": "qraft",
+      "name": "Qraft 서울 채용",
+      "url": "https://qraft.careers.team/job-descriptions",
+      "adapter": "public",
+      "coverageLimit": "공식 홈페이지가 연결한 현재 채용 목록과 직무별 자격요건 확인",
+      "company": "크래프트테크놀로지스",
+      "country": "KR",
+      "verifiedFrom": "https://www.qraftec.com/careers",
+      "status": "partial",
+      "reason": "목록 2개 · 상세 4개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
+      "lastAttemptAt": "2026-09-11T01:13:33.025733+00:00",
+      "lastSuccessAt": "2026-09-11T01:13:33.025735+00:00",
+      "found": 0,
+      "excluded": 1,
+      "review": 0,
+      "inspected": 4,
+      "listPages": 2
     },
     {
       "id": "koreaap",
@@ -8169,7 +8452,7 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
       "reason": "목록 2개 · 상세 0개 확인, 접근·본문 확인 실패 2개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:38:55.784701+00:00",
+      "lastAttemptAt": "2026-09-11T01:13:35.462085+00:00",
       "lastSuccessAt": null,
       "found": 0,
       "excluded": 0,
@@ -8186,31 +8469,12 @@
       "verifiedFrom": "https://www.bond.co.kr/recruit/10099/10255",
       "status": "partial",
       "reason": "목록 2개 · 상세 0개 확인, 접근·본문 확인 실패 2개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:39:14.519725+00:00",
+      "lastAttemptAt": "2026-09-11T01:13:50.915130+00:00",
       "lastSuccessAt": "2026-09-09T22:06:12.272861+00:00",
       "found": 0,
       "excluded": 0,
       "review": 0,
       "inspected": 0,
-      "listPages": 2
-    },
-    {
-      "id": "qraft",
-      "name": "Qraft 서울 채용",
-      "url": "https://qraft.careers.team/job-descriptions",
-      "adapter": "public",
-      "coverageLimit": "공식 홈페이지가 연결한 현재 채용 목록과 직무별 자격요건 확인",
-      "company": "크래프트테크놀로지스",
-      "country": "KR",
-      "verifiedFrom": "https://www.qraftec.com/careers",
-      "status": "partial",
-      "reason": "목록 2개 · 상세 4개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:39:18.148173+00:00",
-      "lastSuccessAt": "2026-09-10T14:39:18.148176+00:00",
-      "found": 0,
-      "excluded": 1,
-      "review": 0,
-      "inspected": 4,
       "listPages": 2
     },
     {
@@ -8224,8 +8488,8 @@
       "verifiedFrom": "https://corp.fnguide.com/",
       "status": "partial",
       "reason": "목록 2개 · 상세 4개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:39:34.160720+00:00",
-      "lastSuccessAt": "2026-09-10T14:39:34.160723+00:00",
+      "lastAttemptAt": "2026-09-11T01:13:54.322665+00:00",
+      "lastSuccessAt": "2026-09-11T01:13:54.322668+00:00",
       "found": 0,
       "excluded": 0,
       "review": 1,
@@ -8241,7 +8505,7 @@
       "verifiedFrom": "https://fineng.korea.ac.kr/fineng/index.do",
       "status": "partial",
       "reason": "목록 1개 · 상세 0개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:39:43.130933+00:00",
+      "lastAttemptAt": "2026-09-11T01:14:03.554246+00:00",
       "lastSuccessAt": "2026-09-08T13:16:31.814592+00:00",
       "found": 0,
       "excluded": 0,
@@ -8258,7 +8522,7 @@
       "country": "",
       "status": "error",
       "reason": "목록 0개 · 상세 0개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:39:43.195507+00:00",
+      "lastAttemptAt": "2026-09-11T01:14:03.619484+00:00",
       "lastSuccessAt": null,
       "found": 0,
       "excluded": 0,
@@ -8275,7 +8539,7 @@
       "country": "PL",
       "status": "error",
       "reason": "목록 0개 · 상세 0개 확인, 접근·본문 확인 실패 1개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:39:43.268950+00:00",
+      "lastAttemptAt": "2026-09-11T01:14:03.723756+00:00",
       "lastSuccessAt": null,
       "found": 0,
       "excluded": 0,
@@ -8291,7 +8555,7 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
       "reason": "목록 12개 · 상세 0개 확인, 접근·본문 확인 실패 12개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:41:01.778371+00:00",
+      "lastAttemptAt": "2026-09-11T01:15:30.453534+00:00",
       "lastSuccessAt": null,
       "found": 0,
       "excluded": 0,
@@ -8308,8 +8572,8 @@
       "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
       "status": "partial",
       "reason": "목록 4개 · 상세 10개 확인, 접근·본문 확인 실패 3개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:41:35.095725+00:00",
-      "lastSuccessAt": "2026-09-10T14:41:35.095726+00:00",
+      "lastAttemptAt": "2026-09-11T01:16:04.000146+00:00",
+      "lastSuccessAt": "2026-09-11T01:16:04.000147+00:00",
       "found": 0,
       "excluded": 2,
       "review": 0,
@@ -8325,7 +8589,7 @@
       "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
       "status": "partial",
       "reason": "목록 2개 · 상세 0개 확인, 접근·본문 확인 실패 4개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:42:40.565191+00:00",
+      "lastAttemptAt": "2026-09-11T01:17:09.531732+00:00",
       "lastSuccessAt": null,
       "found": 0,
       "excluded": 0,
@@ -8342,8 +8606,8 @@
       "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
       "status": "ok",
       "reason": "목록 3개 · 상세 5개 확인, 접근·본문 확인 실패 0개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:42:43.437506+00:00",
-      "lastSuccessAt": "2026-09-10T14:42:43.437508+00:00",
+      "lastAttemptAt": "2026-09-11T01:17:11.999428+00:00",
+      "lastSuccessAt": "2026-09-11T01:17:11.999430+00:00",
       "found": 2,
       "excluded": 0,
       "review": 0,
@@ -8358,12 +8622,12 @@
       "country": "KR",
       "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
       "status": "partial",
-      "reason": "목록 12개 · 상세 97개 확인, 접근·본문 확인 실패 13개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:43:32.156117+00:00",
-      "lastSuccessAt": "2026-09-10T14:43:32.156128+00:00",
+      "reason": "목록 12개 · 상세 97개 확인, 접근·본문 확인 실패 11개. 목록 최대 12개 / 상세 최대 100개.",
+      "lastAttemptAt": "2026-09-11T01:17:23.584170+00:00",
+      "lastSuccessAt": "2026-09-11T01:17:23.584173+00:00",
       "found": 0,
-      "excluded": 11,
-      "review": 15,
+      "excluded": 10,
+      "review": 18,
       "inspected": 97,
       "listPages": 12
     },
@@ -8376,30 +8640,13 @@
       "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
       "status": "partial",
       "reason": "목록 1개 · 상세 1개 확인, 접근·본문 확인 실패 2개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:43:37.656958+00:00",
-      "lastSuccessAt": "2026-09-10T14:43:37.656959+00:00",
+      "lastAttemptAt": "2026-09-11T01:17:29.772317+00:00",
+      "lastSuccessAt": "2026-09-11T01:17:29.772318+00:00",
       "found": 0,
       "excluded": 0,
       "review": 1,
       "inspected": 1,
       "listPages": 1
-    },
-    {
-      "id": "db",
-      "name": "DB그룹 공식 채용",
-      "url": "https://dbgroup.recruiter.co.kr/",
-      "adapter": "public",
-      "country": "KR",
-      "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
-      "status": "partial",
-      "reason": "목록 12개 · 상세 0개 확인, 접근·본문 확인 실패 12개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:44:20.290619+00:00",
-      "lastSuccessAt": null,
-      "found": 0,
-      "excluded": 0,
-      "review": 0,
-      "inspected": 0,
-      "listPages": 12
     },
     {
       "id": "samsung-finance",
@@ -8419,13 +8666,30 @@
       "coverageLimit": "금융계열사와 재무 모집 기업의 현재 공고·직무별 지원자격을 직접 확인합니다.",
       "status": "ok",
       "reason": "삼성 계열 7개 공식 목록 · 상세 7개 확인. 현재 목록에 공고 없음: 삼성자산운용",
-      "lastAttemptAt": "2026-09-10T14:44:36.306264+00:00",
-      "lastSuccessAt": "2026-09-10T14:44:36.306266+00:00",
+      "lastAttemptAt": "2026-09-11T01:18:33.781953+00:00",
+      "lastSuccessAt": "2026-09-11T01:18:33.781954+00:00",
       "found": 0,
       "excluded": 0,
       "review": 5,
       "inspected": 7,
       "listPages": 7
+    },
+    {
+      "id": "db",
+      "name": "DB그룹 공식 채용",
+      "url": "https://dbgroup.recruiter.co.kr/",
+      "adapter": "public",
+      "country": "KR",
+      "coverageLimit": "공식 공개 채용 목록과 기존 미마감 공고 재확인",
+      "status": "partial",
+      "reason": "목록 12개 · 상세 0개 확인, 접근·본문 확인 실패 12개. 목록 최대 12개 / 상세 최대 100개.",
+      "lastAttemptAt": "2026-09-11T01:18:48.531780+00:00",
+      "lastSuccessAt": null,
+      "found": 0,
+      "excluded": 0,
+      "review": 0,
+      "inspected": 0,
+      "listPages": 12
     },
     {
       "id": "naver-kkbjob",
@@ -8435,11 +8699,11 @@
       "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다.",
       "status": "partial",
       "reason": "목록 12개 · 상세 98개 확인, 접근·본문 확인 실패 24개. 목록 최대 12개 / 상세 최대 100개.",
-      "lastAttemptAt": "2026-09-10T14:46:21.718476+00:00",
-      "lastSuccessAt": "2026-09-10T14:46:21.718478+00:00",
-      "found": 2,
+      "lastAttemptAt": "2026-09-11T01:20:38.039630+00:00",
+      "lastSuccessAt": "2026-09-11T01:20:38.039632+00:00",
+      "found": 1,
       "excluded": 13,
-      "review": 25,
+      "review": 26,
       "inspected": 98,
       "listPages": 12
     }
@@ -18081,6 +18345,116 @@
         "evidence"
       ],
       "detectedAt": "2026-09-10T14:34:04.146635+00:00"
+    },
+    {
+      "id": "d40b884d1ae164c552777cb2",
+      "jobId": "worldquant-4232927006",
+      "kind": "updated",
+      "changedFields": [
+        "evidence"
+      ],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "8d44095fda40cabf98e08e69",
+      "jobId": "worldquant-4232921006",
+      "kind": "updated",
+      "changedFields": [
+        "evidence"
+      ],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "26f6fb4b282086ef8f2128b6",
+      "jobId": "kofia-41947",
+      "kind": "closed",
+      "changedFields": [
+        "status"
+      ],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "fb102c5e1f1a359375a8d967",
+      "jobId": "jasoseol-f7bd372541fc0b3b",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "f570b8413da5a1585668d58b",
+      "jobId": "linkedin-cad7d142f92488e4",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "5093326c8dfd67eba4a60191",
+      "jobId": "linkedin-9d6d396dc34ee753",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "c66320c6e2cb88d7b5c846c7",
+      "jobId": "linkedin-612163b26d35b1ac",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "96da5c356c024ad7b70734a8",
+      "jobId": "jobkorea-f7321779873a9b51",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "73f5c52929bfd56410ed7966",
+      "jobId": "jobkorea-710efae34128113d",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "5c147ff4879cfae0101a5d3a",
+      "jobId": "jobkorea-f3b9d97560cba830",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "dd316f4546ad7362da50aac3",
+      "jobId": "jobkorea-fd1f9619f0396c98",
+      "kind": "updated",
+      "changedFields": [
+        "evidence"
+      ],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "8782f862d7fe6c16da923dc4",
+      "jobId": "jobkorea-4011a91547f819bd",
+      "kind": "updated",
+      "changedFields": [
+        "evidence"
+      ],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "7caca8230b0003c0a822a096",
+      "jobId": "jobkorea-cd6c93aa1691f857",
+      "kind": "updated",
+      "changedFields": [
+        "evidence"
+      ],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
+    },
+    {
+      "id": "2caa9bef1df27391ed30c354",
+      "jobId": "naver-kkbjob-6b3103d783cda056",
+      "kind": "new",
+      "changedFields": [],
+      "detectedAt": "2026-09-11T01:08:38.802968+00:00"
     }
   ]
 }

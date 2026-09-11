@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-10T14:46:21.799335+00:00",
+  "generatedAt": "2026-09-11T01:20:38.086227+00:00",
   "mode": "astra",
-  "jobs": 245,
-  "new": 12,
-  "updated": 189,
-  "closed": 3,
+  "jobs": 253,
+  "new": 8,
+  "updated": 5,
+  "closed": 1,
   "attemptedSources": 28,
   "failedSources": [
     "kofia",
     "superookie",
-    "jasoseol",
     "fcb",
+    "jasoseol",
     "wanted",
     "catch",
+    "qraft",
     "koreaap",
     "kis",
-    "qraft",
     "fnguide",
     "korea-finance",
     "citadel",
@@ -28,7 +28,7 @@
     "db",
     "naver-kkbjob"
   ],
-  "aiErrors": 443,
+  "aiErrors": 452,
   "aiError": "OpenAI 연결 시간이 초과되었습니다.",
   "manualSources": []
 }
