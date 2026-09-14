@@ -83,9 +83,12 @@
   {
     "id": "qraft",
     "name": "Qraft 서울 채용",
-    "url": "https://www.qraftec.com/careers",
+    "url": "https://qraft.careers.team/job-descriptions",
     "adapter": "public",
-    "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다."
+    "coverageLimit": "공식 홈페이지가 연결한 현재 채용 목록과 직무별 자격요건 확인",
+    "company": "크래프트테크놀로지스",
+    "country": "KR",
+    "verifiedFrom": "https://www.qraftec.com/careers"
   },
   {
     "id": "niceinfo",
@@ -114,16 +117,20 @@
   {
     "id": "kis",
     "name": "KIS자산평가",
-    "url": "https://www.bond.co.kr/",
+    "url": "https://kispricing.career.greetinghr.com/",
     "adapter": "public",
-    "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다."
+    "coverageLimit": "공식 홈페이지 채용안내가 연결한 Greeting 채용 목록. 목록이 비어 있는 경우와 접근 실패를 구분합니다.",
+    "verifiedFrom": "https://www.bond.co.kr/recruit/10099/10255"
   },
   {
     "id": "fnguide",
-    "name": "에프앤가이드",
-    "url": "https://www.fnindex.co.kr/",
+    "name": "에프앤가이드 공식 채용",
+    "url": "https://corp.fnguide.com/Career/CareerInfo",
     "adapter": "public",
-    "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다."
+    "coverageLimit": "공식 채용 목록의 접수 마감일과 각 부서 원문의 필수·우대 조건을 확인합니다.",
+    "company": "에프앤가이드",
+    "country": "KR",
+    "verifiedFrom": "https://corp.fnguide.com/"
   },
   {
     "id": "snu",
@@ -135,9 +142,10 @@
   {
     "id": "korea-finance",
     "name": "고려대 금융공학",
-    "url": "https://kufra.korea.ac.kr/kufra/board/news.do",
+    "url": "https://fineng.korea.ac.kr/fineng/notice/notice.do",
     "adapter": "public",
-    "coverageLimit": "공개 목록·상세를 순회합니다. 접근 제한·첨부 미확인은 수집 결과에 별도 표시합니다."
+    "coverageLimit": "금융공학 융합전공·협동과정 공식 공지. 기존 불어불문학과 URL을 바로잡았습니다. 공지에 채용이 없으면 다른 공개 취업 경로로 보완합니다.",
+    "verifiedFrom": "https://fineng.korea.ac.kr/fineng/index.do"
   },
   {
     "id": "citadel",
@@ -219,5 +227,134 @@
       "삼성물산 패션부문": "https://www.samsungcareers.com/subsid/detail/E7A"
     },
     "coverageLimit": "금융계열사와 재무 모집 기업의 현재 공고·직무별 지원자격을 직접 확인합니다."
+  },
+  {
+    "id": "miraeasset",
+    "name": "미래에셋 공식 채용",
+    "url": "https://career.miraeasset.com/recruit01",
+    "adapter": "public",
+    "country": "KR",
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42201",
+    "coverageLimit": "회사 작성 공고가 연결한 공식 상세와 채용 홈페이지의 채용공고 메뉴. 동적 목록이 비면 부분 수집으로 표시하고 금투협 원문으로 보완."
+  },
+  {
+    "id": "heungkuksec",
+    "name": "흥국증권 공식 채용",
+    "url": "https://www.heungkuksec.co.kr/company/recruit/list.do",
+    "adapter": "public",
+    "company": "흥국증권",
+    "country": "KR",
+    "verifiedFrom": "https://www.heungkuksec.co.kr/index.do",
+    "coverageLimit": "공식 홈페이지 채용안내 메뉴. 현재 목록은 과거 공고 중심이므로 최신 회사 작성 금투협 채용도 함께 확인."
+  },
+  {
+    "id": "eugene",
+    "name": "유진투자증권 공식 채용",
+    "url": "https://eugene.recruiter.co.kr/career/home",
+    "adapter": "public",
+    "country": "KR",
+    "company": "유진투자증권",
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42116",
+    "coverageLimit": "회사 작성 공고가 연결한 공식 채용 사이트와 공개 상세. 첨부·동적 본문 미확인은 별도 표시."
+  },
+  {
+    "id": "w-asset",
+    "name": "더블유자산운용 공식 홈페이지",
+    "url": "https://www.w-asset.com/",
+    "adapter": "public",
+    "country": "KR",
+    "company": "더블유자산운용",
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42170",
+    "coverageLimit": "공식 홈페이지 확인. 별도 채용 목록 링크는 아직 확인되지 않아 금투협 회사 작성 공고를 함께 확인."
+  },
+  {
+    "id": "ibks",
+    "name": "IBK투자증권 공식 채용",
+    "url": "https://recruit.ibks.com/cv/announces/ibks",
+    "adapter": "public",
+    "country": "KR",
+    "enabled": true,
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42222",
+    "coverageLimit": "회사 작성 금투협 공고에서 공식 채용 목록 연결 확인. 이번 공개 웹 요청에서는 동적 목록 본문 미확인."
+  },
+  {
+    "id": "tiger",
+    "name": "타이거자산운용투자일임 공식 홈페이지",
+    "url": "https://tigerinv.co.kr",
+    "adapter": "public",
+    "country": "KR",
+    "enabled": true,
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42214",
+    "coverageLimit": "회사 작성 공고의 홈페이지 연결 확인. 전용 채용 목록과 홈페이지 본문은 이번 요청에서 확인하지 못해 금투협 공고로 보완."
+  },
+  {
+    "id": "barclays-glasgow",
+    "name": "Barclays 영국 Glasgow 공식 채용",
+    "url": "https://search.jobs.barclays/business/custom_fields.ajdlocation/glasgow/13015/5",
+    "adapter": "public",
+    "enabled": true,
+    "country": "GB",
+    "verifiedFrom": "https://search.jobs.barclays/business/custom_fields.ajdlocation/glasgow/13015/5",
+    "coverageLimit": "회사 공식 채용 목록의 영국 Glasgow 필터. 공개 목록·2027 Quant Graduate 항목 확인; 다른 도시와 전체 상세는 별도 확인 필요."
+  },
+  {
+    "id": "tower",
+    "name": "Tower Research Capital 공식 채용",
+    "url": "https://tower-research.com/roles/",
+    "adapter": "public",
+    "enabled": true,
+    "requireLocation": true,
+    "verifiedFrom": "https://tower-research.com/careers/",
+    "coverageLimit": "모음 사이트에서 발견한 기업의 공식 채용 경로 확인. 상세 직무·국가 필터의 전체 결과는 미확인. 국가가 확인된 지정 5개국 상세만 수집하며 원문 확인이 필요한 항목은 LinkedIn 공고로 보완."
+  },
+  {
+    "id": "drw",
+    "name": "DRW 공식 채용",
+    "url": "https://www.drw.com/work-at-drw/listings",
+    "adapter": "public",
+    "enabled": true,
+    "requireLocation": true,
+    "verifiedFrom": "https://www.drw.com/work-at-drw/listings",
+    "coverageLimit": "모음 사이트에서 발견한 기업의 공식 채용 경로 확인. 상세 직무·국가 필터의 전체 결과는 미확인. 국가가 확인된 지정 5개국 상세만 수집하며 원문 확인이 필요한 항목은 LinkedIn 공고로 보완."
+  },
+  {
+    "id": "deutsche",
+    "name": "Deutsche Bank 신입·인턴 공식 채용",
+    "url": "https://careers.db.com/students-graduates/Search-Programmes/",
+    "adapter": "public",
+    "enabled": true,
+    "requireLocation": true,
+    "verifiedFrom": "https://careers.db.com/students-graduates/",
+    "coverageLimit": "모음 사이트에서 발견한 기업의 공식 채용 경로 확인. 상세 직무·국가 필터의 전체 결과는 미확인. 국가가 확인된 지정 5개국 상세만 수집하며 원문 확인이 필요한 항목은 LinkedIn 공고로 보완."
+  },
+  {
+    "id": "jpmorgan",
+    "name": "JPMorganChase 공식 채용",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+    "adapter": "public",
+    "enabled": true,
+    "requireLocation": true,
+    "verifiedFrom": "https://www.jpmorganchase.com/careers?redirect=careers_jpm",
+    "coverageLimit": "모음 사이트에서 발견한 기업의 공식 채용 경로 확인. 상세 직무·국가 필터의 전체 결과는 미확인. 국가가 확인된 지정 5개국 상세만 수집하며 원문 확인이 필요한 항목은 LinkedIn 공고로 보완."
+  },
+  {
+    "id": "nomura",
+    "name": "Nomura Early Careers 공식 채용",
+    "url": "https://www.nomura.com/careers/",
+    "adapter": "public",
+    "enabled": true,
+    "requireLocation": true,
+    "verifiedFrom": "https://www.nomura.com/careers/",
+    "coverageLimit": "모음 사이트에서 발견한 기업의 공식 채용 경로 확인. 상세 직무·국가 필터의 전체 결과는 미확인. 국가가 확인된 지정 5개국 상세만 수집하며 원문 확인이 필요한 항목은 LinkedIn 공고로 보완."
+  },
+  {
+    "id": "gasco",
+    "name": "Singapore GasCo 공식 채용",
+    "url": "https://www.sggasco.com.sg/careers/",
+    "adapter": "public",
+    "enabled": true,
+    "requireLocation": true,
+    "verifiedFrom": "https://www.sggasco.com.sg/",
+    "coverageLimit": "모음 사이트에서 발견한 기업의 공식 채용 경로 확인. 상세 직무·국가 필터의 전체 결과는 미확인. 국가가 확인된 지정 5개국 상세만 수집하며 원문 확인이 필요한 항목은 LinkedIn 공고로 보완."
   }
 ]
