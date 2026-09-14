@@ -83,7 +83,7 @@ def walk(value):
 
 def extract(html,url,source):
     soup=BeautifulSoup(html,'html.parser');text=soup_text(soup);objects=json_objects(soup)
-    raw={'sourceId':source['id'],'sourceUrl':canonical(url),'body':text,'country':source.get('country','KR'),
+    raw={'sourceId':source['id'],'sourceUrl':canonical(url),'body':text,'country':'' if source.get('requireLocation') else source.get('country','KR'),
          'company':source.get('company',''),'title':'','complete':True}
     title=soup.select_one('h1') or soup.select_one('meta[property="og:title"]') or soup.title
     if title:raw['title']=clean(title.get('content') or title.get_text())

@@ -49,6 +49,8 @@ def career_only(title):
     return bool(re.search(r'경력(?:직|자)?|experienced|\bsenior\b|시니어|과장|차장|부장|팀장급|실장급|vice president|principal|책임자',title,re.I))
 
 def scope_exclusion(title, body):
+    if re.search(r'고용\s*형태\s*[:：]?\s*프리랜서',body):
+        return '프리랜서 계약으로 인턴·신입 근로자 채용 범위에서 제외'
     if re.search(r'추천\s*\d+권|FCB\s*어쏘.*모집',title,re.I):
         return '도서 추천·교육 프로그램으로 기업의 인턴·신입 채용 공고가 아님'
     if re.search(r'펀드회계|신탁회계|사무보조|경영지원.*사무직|유튜브.*컴플라이언스',title):
@@ -192,6 +194,8 @@ def classify(raw, ai=None):
     if status=='open' and start and start>today:status='upcoming'
     eligibility=ai.get('eligibility') if ai else raw.get('eligibility') or requirements(role_requirements or body)
     if eligibility=='본문에서 지원 자격을 확인하지 못했습니다.' and status=='open':status='review';reason='지원 자격 본문 확인 필요'
+    if country!='KR' and status=='open':
+        status='review';reason='주니어 모집 요건은 확인했으나 현지 취업허가·스폰서십 조건 확인 필요'
     if raw.get('curationValid'):
         eligibility=raw.get('eligibility') or eligibility
     company=raw.get('company','')

@@ -8,6 +8,20 @@ from collect import canonical
 
 
 class OfficialRoutesTests(unittest.TestCase):
+    def test_global_listing_requires_an_explicit_supported_location(self):
+        source={'id':'global','requireLocation':True}
+        html='<h1>Quant Research Intern</h1><p>Bachelors degree and Python</p>'
+        raw=extract(html,'https://example.com/jobs/intern',source)
+        self.assertEqual(raw['country'],'')
+        self.assertIsNone(classify(raw))
+        html+='''<script type="application/ld+json">{"@type":"JobPosting","title":"Quant Research Intern", "jobLocation":{"address":{"addressCountry":"United Kingdom"}}}</script>'''
+        self.assertEqual(extract(html,'https://example.com/jobs/intern',source)['country'],'GB')
+        job=classify({'sourceId':'global','sourceUrl':'https://example.com/jobs/intern','company':'Example',
+                      'country':'HK','title':'Quant Research Intern','body':'Bachelor degree. Fluent English.',
+                      'complete':True,'accepting':True})
+        self.assertEqual(job['status'],'review')
+        self.assertIn('스폰서십',job['evidence'])
+
     def test_split_experience_label_and_unrelated_essays(self):
         for years in (3,5,10):
             body=f'지원자격\n경력\n경력\n({years}년이상)\n학력\n학력무관'
@@ -36,6 +50,7 @@ class OfficialRoutesTests(unittest.TestCase):
               'country':'KR','complete':True,'period':'2030-09-30',
               'body':'자격요건\n학사 이상, 경력 무관'}
         for title,body in [
+            ('법인 경영 리스크 관리 컨설턴트','고용형태\n프리랜서\n경력무관'),
             ('Risk Management Head',base['body']),
             ('자산운용사 CRO',base['body']),
             ('자산운용 지원자에게 추천 3권',base['body']),
