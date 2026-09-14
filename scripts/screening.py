@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from collect import clean, category_for, language_status, COUNTRIES, parse_period, digest, utcnow
 
-VERSION = '2026-09-08.7'
+VERSION = '2026-09-14.1'
 NON_POSTING = re.compile(r'교재|책\s*팝니다|수강|수험|인강\s*공유|강의\s*공유|판매합니다|자격증.*(?:판매|강의)')
 PREFERRED = re.compile(r'우대|preferred|advantage|a plus|not required', re.I)
 
@@ -23,6 +23,8 @@ def qualification_text(body):
     return '\n'.join(selected)
 
 def experience_requirement(body):
+    # Job boards render the experience label and its value on separate lines.
+    body=re.sub(r'(?m)^\s*경력\s*\n(?:\s*경력\s*\n)?\s*(\(?\d{1,2}\s*(?:[-–~]\s*\d{1,2}\s*)?년[^\n]*)',r'경력 \1',body)
     fallback=''
     for line in re.split(r'[\n;,•ㆍ·]|\s+[/|]\s+|\s+(?=(?:Python|SQL|Excel)\b|학력|전공)|\s+및\s+|\s+and\s+(?=[A-Z][a-zA-Z+#]+\s+(?:preferred|우대))|(?<=[.!?])\s+', qualification_text(body)):
         # Future onboarding/rotations are not prior professional experience.
@@ -42,8 +44,21 @@ def senior_position(position):
     return bool(re.search(r'대리|과장|차장|부장|팀장|실장|본부장|수석|책임|시니어|senior|vice president|director|principal|head of',position,re.I))
 
 def career_only(title):
+    if re.search(r'\bCRO\b|chief risk officer|risk management head|리스크\s*관리\s*총괄\s*실장',title,re.I):return True
     if re.search(r'신입|인턴|intern|new grad|경력\s*무관|무경력',title,re.I):return False
-    return bool(re.search(r'경력(?:직|자)?|experienced|\bsenior\b|시니어|과장|차장|부장|vice president|principal|책임자',title,re.I))
+    return bool(re.search(r'경력(?:직|자)?|experienced|\bsenior\b|시니어|과장|차장|부장|팀장급|실장급|vice president|principal|책임자',title,re.I))
+
+def scope_exclusion(title, body):
+    if re.search(r'추천\s*\d+권|FCB\s*어쏘.*모집',title,re.I):
+        return '도서 추천·교육 프로그램으로 기업의 인턴·신입 채용 공고가 아님'
+    if re.search(r'펀드회계|신탁회계|사무보조|경영지원.*사무직|유튜브.*컴플라이언스',title):
+        return '펀드회계·일반 사무·준법 업무로 희망 금융 분석·운용 직무에서 제외'
+    duties=re.search(r'담당\s*업무[\]:：\s]*([^\[]+)',body)
+    if duties and re.search(r'국내\s*부동산\s*펀드\s*운용',duties[1]):
+        return '담당 업무가 부동산 펀드 운용·임대·공사 관리 중심으로 희망 분야에서 제외'
+    if re.search(r'리스크제로',title) and re.search(r'산업\s*안전|건설\s*현장|중대\s*재해',body):
+        return '산업안전 시스템 직무로 금융리스크 업무에 해당하지 않음'
+    return ''
 
 def audit_existing(job):
     """Never certify old summaries as freshly read originals."""
@@ -64,7 +79,8 @@ def category(title, body):
     if '계리' in title: return '금융리스크'
     if '투자자산관리' in title: return '자산운용·자산배분'
     if '데이터 애널리스트' in title and re.search(r'신용|재무|금융',body): return '금융리스크'
-    if re.search(r'기업분석|산업분석|equity research|\bRA\b', title, re.I): return '기업·산업 리서치'
+    regulatory_ra=bool(re.search(r'화장품|의약품|인허가|regulatory affairs',body,re.I))
+    if re.search(r'기업분석|산업분석|equity research',title,re.I) or (re.search(r'\bRA\b',title,re.I) and not regulatory_ra):return '기업·산업 리서치'
     if re.search(r'리서치|research associate',title,re.I) and re.search(r'금융|주식|투자|증권|자산|equity|investment|asset|portfolio',title+' '+body,re.I):return '기업·산업 리서치'
     if re.search(r'투자관리|전략투자|M&A|재무|자금|\bIR\b|investor relations|corporate finance', title, re.I): return '기업 재무·전략투자'
     if re.search(r'운용지원|운용\s*인턴|OCIO|투자.{0,8}인턴', title, re.I): return '자산운용·자산배분'
@@ -140,6 +156,9 @@ def classify(raw, ai=None):
     # Hard exclusions win over every AI and soft-review branch.
     if career_only(title) or raw.get('employment')=='경력' or (ai and ai.get('level')=='경력'):
         status='excluded';reason='경력 전용 공고: 인턴·신입 지원 근거 없음'
+    focused_roles=[r.strip() for r in roles.split(' / ') if r.strip()]
+    if focused_roles and all(re.search(r'경력|experienced',r,re.I) and not re.search(r'신입|인턴|intern|무관',r,re.I) for r in focused_roles):
+        status='excluded';reason='희망 직무는 경력 전용: '+roles
     if re.search(r'\bsenior\b|시니어|vice president|principal|과장|차장|부장|책임자',title,re.I) and not mixed_title:
         status='excluded';reason='경력·책임자급 직무'
     if ai and (ai.get('decision')=='exclude' or ai.get('requiredLocalLanguage')):
@@ -147,6 +166,8 @@ def classify(raw, ai=None):
     if raw.get('excludeReason'):status='excluded';reason=raw['excludeReason']
     if senior_position(position):status='excluded';reason='모집 직위 불일치: '+position+(' · 필수 경력: '+exp if exp else '')
     if NON_POSTING.search(title):status='excluded';reason='채용 공고가 아닌 학습·판매 게시물'
+    out_of_scope=scope_exclusion(title,body)
+    if out_of_scope:status='excluded';reason=out_of_scope
     start,end=parse_period(raw.get('period',''))
     start=raw.get('startDate') or start
     if not end:

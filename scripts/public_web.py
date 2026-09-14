@@ -87,6 +87,9 @@ def extract(html,url,source):
          'company':source.get('company',''),'title':'','complete':True}
     title=soup.select_one('h1') or soup.select_one('meta[property="og:title"]') or soup.title
     if title:raw['title']=clean(title.get('content') or title.get_text())
+    if urlsplit(url).hostname in ('www.jobkorea.co.kr','jobkorea.co.kr'):
+        # Interview tips and historical successful essays are unrelated to this opening.
+        raw['body']=re.split(r'(?m)^이 기업의 취업 전략\s*$',raw['body'],maxsplit=1)[0]
     for value in objects:
         for obj in walk(value):
             if obj.get('@type')=='JobPosting':
@@ -113,6 +116,16 @@ def extract(html,url,source):
                     raw['deadlineDate']=valid[:10]
                     if re.search(r'(Z|[+-]\d{2}:\d{2})$',valid):raw['deadlineAt']=valid
                 raw['postedAt']=str(obj.get('datePosted') or '')[:10]
+    if urlsplit(url).hostname=='corp.fnguide.com' and '/Career/CareerInfoDetail' in url:
+        heading=soup.select_one('#container h4');role=soup.select_one('.career--left .role1')
+        if heading and role:
+            from screening import qualification_text, requirements
+            body=soup_text(role)
+            raw.update(title=re.sub(r'^\[([^]]+)\]',r'\1 ·',clean(heading.get_text())),
+                       company='에프앤가이드',body=body,roleRequirements=qualification_text(body),eligibility=requirements(body),
+                       postingRecognized=True,complete='자격요건' in body)
+            apply=soup.select_one('a[href*="/Career/ConfirmStep?no="]')
+            if apply:raw['applicationUrl']=urljoin(url,apply['href'])
     # Wanted's actual status overrides the generic "상시채용" text.
     if 'wanted.co.kr/wd/' in url:
         for value in objects:

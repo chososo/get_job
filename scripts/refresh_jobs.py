@@ -75,7 +75,9 @@ def _run(pages,progress,publish_result,cache):
             if s['enabled']:sources.append({**s,'id':'custom-'+digest([s['name'],s['url']])[:16],'adapter':'public','private':True})
     cfg=ai_screen.read_config();mode='astra' if cfg.get('api_key') else 'rules'
     curation_path=ROOT/'public-watch.json';curations=json.loads(curation_path.read_text()) if curation_path.exists() else []
-    old_by_url={canonical(j['sourceUrl']):j for j in previous['jobs']}
+    old_by_url={}
+    for j in previous['jobs']:
+        old_by_url.setdefault(canonical(j['sourceUrl']),j)
     cure_by_url={canonical(j['sourceUrl']):j for j in curations}
     incoming=[];statuses=[];started=utcnow();renderer=Renderer();progress_lock=threading.Lock();done=0;ai_errors=[]
     def update(label):
@@ -123,7 +125,9 @@ def _run(pages,progress,publish_result,cache):
                         continue
                     if api_failed:
                         if job['status'] in ('open','upcoming'):job['status']='review'
-                        job.update(screeningMode='astra-error',evidence='Astra 심사 실패 · '+ai_errors[-1])
+                        job['screeningMode']='astra-error'
+                        if job['status'] not in ('excluded','closed'):
+                            job['evidence']='Astra 심사 실패 · '+ai_errors[-1]
                     if job['status']=='closed' and not old and not cure:continue
                     if job['status']=='excluded' and not old and not cure:excluded+=1;continue
                     incoming.append(job)

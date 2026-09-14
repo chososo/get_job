@@ -6,7 +6,7 @@ from public_web import extract, soup_text
 from collect import kofia, greenhouse, canonical, clean
 
 RELEVANT=re.compile(r'퀀트|quant|신입|인턴|graduate|new grad|리스크|risk|ETF|파생|운용|리서치|research|투자|재무|자금|\bIR\b|M&A|채용|recruit',re.I)
-DETAIL=re.compile(r'/recruit/\d+|/Recruit/RecruitView\?ID=|/wd/\d+|/post/|/jobs/view/|/jobs/[^/?]{8,}|/o/\d+|/articles/\d+|ArticleRead|jobnotice/view|jobs-view\?seq=|/Recruit/GI_Read/|view\.do\?seq=|artclView|ArticleSeq|bbsSeq|nttId',re.I)
+DETAIL=re.compile(r'/recruit/\d+|/Recruit/RecruitView\?ID=|/wd/\d+|/post/|/jobs/view/|/jobs/[^/?]{8,}|/o/\d+|/job-descriptions/[^/?]+|/Career/CareerInfoDetail\?no=\d+|/job_posting/[A-Za-z0-9]+|/careers/details/[^/?]+|/articles/\d+|ArticleRead|jobnotice/view|jobs-view\?seq=|/Recruit/GI_Read/|view\.do\?seq=|artclView|ArticleSeq|bbsSeq|nttId',re.I)
 
 def listing_urls(source,pages):
     sid=source['id']
@@ -49,7 +49,7 @@ def discover(source,client,renderer,pages=3,watch=None,progress=lambda x:None):
         return rows,{'reason':reason,'failed':failed,'lists':pages if source['adapter']=='kofia' else 1,'details':len(rows),'truncated':source['adapter']=='kofia'}
     queue=listing_urls(source,pages);visited=set();candidates={};failed=0;lists=0;details=0;rendered=0
     max_lists=max(6,pages*4);max_details=100
-    for item in watch:candidates[item['sourceUrl']]=item
+    for item in watch:candidates.setdefault(canonical(item['sourceUrl']),item)
     while queue and len(visited)<max_lists:
         url=queue.pop(0)
         if url in visited:continue
@@ -61,7 +61,7 @@ def discover(source,client,renderer,pages=3,watch=None,progress=lambda x:None):
                 except Exception:failed+=1
             lists+=1
             if DETAIL.search(url) and not re.search('/RecruitSearch|/jobs-guest/',url):candidates.setdefault(url,{'label':''})
-            for href,label in links.items():candidates.setdefault(href,{'label':label})
+            for href,label in links.items():candidates.setdefault(href,{})['label']=label
             for href in boards:
                 if href not in visited and href not in queue:queue.append(href)
             if not links and not DETAIL.search(url):failed+=1
@@ -79,6 +79,12 @@ def discover(source,client,renderer,pages=3,watch=None,progress=lambda x:None):
             if not raw['title'] or len(raw['body'])<80:failed+=1;continue
             if hint.get('id'):raw['id']=hint['id']
             raw['label']=hint.get('label','')
+            # FnGuide publishes the deadline on its current listing, not the detail page.
+            # Only today's fetched label supplies this fact; never borrow an old deadline.
+            if urlsplit(url).hostname=='corp.fnguide.com':
+                date=re.search(r'~\s*(20\d{2})년\s*(\d{2})월\s*(\d{2})일',raw['label'])
+                if date:
+                    raw['deadlineDate']='-'.join(date.groups());raw['period']=raw['deadlineDate']+' (마감 시각 미공개)'
             if not raw['company'] and hint.get('company'):raw['company']=hint['company']
             raw['curation']=hint if hint.get('verification') else None
             if hint.get('country'):raw['country']=hint['country']

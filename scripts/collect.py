@@ -25,6 +25,9 @@ def canonical(url):
     if (u.hostname or '').endswith('linkedin.com'):
         match=re.search(r'/jobs/view/(?:[^/]*-)?(\d+)',u.path)
         if match:return 'https://www.linkedin.com/jobs/view/'+match[1]
+    if u.hostname in ('www.jobkorea.co.kr','jobkorea.co.kr'):
+        match=re.fullmatch(r'/Recruit/GI_Read/(\d+)/?',u.path,re.I)
+        if match:return 'https://www.jobkorea.co.kr/Recruit/GI_Read/'+match[1]
     if u.hostname=='cafe.naver.com':
         match=re.search(r'/f-e/cafes/(\d+)/articles/(\d+)',u.path)
         if match:return 'https://cafe.naver.com/f-e/cafes/'+match[1]+'/articles/'+match[2]
