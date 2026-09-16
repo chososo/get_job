@@ -1,4 +1,6 @@
 import json,sys,tempfile,unittest
+from datetime import datetime, timezone
+from unittest.mock import patch
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from screening import classify,experience_requirement,VERSION,audit_existing
@@ -37,7 +39,11 @@ class PositionTests(unittest.TestCase):
         roles=[{'titleKr':'자산운용','taskKr':'운용 업무','qlfctKr':'전공 무관'}, {'titleKr':'퀀트 리서치','taskKr':'리서치','qlfctKr':'관련 업무 10년 이상'}, {'titleKr':'마케팅','qlfctKr':'신입'}]
         rows=parse_posting({'success':True,'data':{'result':head,'items':roles}},{'id':'samsung-finance'})
         self.assertEqual(len(rows),1);self.assertEqual(rows[0]['roles'],'자산운용')
-        self.assertEqual(classify(rows[0])['status'],'open')
+        # This test checks role eligibility, independent of the real wall clock.
+        with patch('screening.datetime') as clock:
+            clock.now.return_value=datetime(2026,9,10,tzinfo=timezone.utc)
+            clock.fromisoformat.side_effect=datetime.fromisoformat
+            self.assertEqual(classify(rows[0])['status'],'open')
 
 class EmployerPriorityTests(unittest.TestCase):
     def test_employer_wins_for_existing_stable_id(self):

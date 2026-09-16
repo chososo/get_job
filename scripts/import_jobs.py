@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 from collect import ROOT,OUTPUT,COUNTRIES,merge,utcnow
+import manual_screen
 
 FIELDS={'recruitmentPosition','requiredExperience','roleKey','id','sourceId','sourceUrl','applicationUrl','title','company','category','country','level','eligibility','languageStatus','visaStatus','postedAt','startDate','deadlineDate','deadlineAt','deadlineTimezone','deadlineKind','deadlineText','status','evidence','lastVerifiedAt','section','screeningMode','screeningVersion'}
 CATEGORIES={'퀀트 리서치','자산운용·자산배분','ETF·인덱스','금융리스크','파생상품평가','기업·산업 리서치','기업 재무·전략투자'}
@@ -27,6 +28,7 @@ def import_file(path):
     incoming=json.loads(Path(path).read_text())
     if not isinstance(incoming,list):raise ValueError('Expected a list of public jobs')
     incoming=[validate(j) for j in incoming]
+    for job in incoming:manual_screen.remember(job,ROOT/'.collection-cache')
     data=json.loads(OUTPUT.read_text());at=utcnow();jobs,changes=merge(data,incoming,at)
     data.update(jobs=jobs,changes=changes,generatedAt=at)
     temp=OUTPUT.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');temp.replace(OUTPUT)

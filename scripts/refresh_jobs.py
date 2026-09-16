@@ -9,6 +9,7 @@ from discovery import discover
 from screening import classify, category, VERSION, audit_existing
 import ai_screen
 import routine_sites
+import manual_screen
 
 ROOT=Path(__file__).resolve().parents[1]
 OUTPUT=ROOT/'web/data/jobs.json'
@@ -109,7 +110,8 @@ def _run(pages,progress,publish_result,cache):
                     atomic(cache/('raw-'+digest([raw['sourceUrl'],raw.get('roleKey','')])+'.json'),{**raw,'collectedAt':started})
                     if raw.get('needsAttachment') and not raw.get('complete'):info['failed']+=1
                     judgment=None;api_failed=False
-                    if mode=='astra':
+                    verified=manual_screen.reuse(raw,cache)
+                    if mode=='astra' and not verified:
                         update(source['name']+' · Astra 자격요건 심사')
                         key=digest([VERSION,ai_screen.MODEL,raw]);file=cache/('ai-'+key+'.json')
                         try:
@@ -117,7 +119,7 @@ def _run(pages,progress,publish_result,cache):
                             if file.exists():judgment=json.loads(file.read_text())
                             else:judgment=ai_screen.screen(raw,cfg);atomic(file,judgment)
                         except Exception as exc:api_failed=True;ai_errors.append(str(exc))
-                    job=classify(raw,judgment)
+                    job=verified or classify(raw,judgment)
                     if not job:
                         if old and raw.get('complete') and raw.get('postingRecognized',source.get('adapter') in ('kofia','greenhouse')):
                             incoming.append({**old,'status':'excluded','evidence':'원문 재검토: 현재 희망 분야에 해당하는 직무를 확인하지 못했습니다.','lastVerifiedAt':utcnow()})
