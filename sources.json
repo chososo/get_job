@@ -1091,5 +1091,45 @@
     "enabled": true,
     "verifiedFrom": "https://jasoseol.com/recruit/106700",
     "coverageLimit": "기업 모집 링크와 공식 채용공고 페이지 명칭 확인."
+  },
+  {
+    "id": "alphasset",
+    "name": "알파자산운용",
+    "url": "https://alphasset.com/notice",
+    "adapter": "public",
+    "country": "KR",
+    "enabled": true,
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42934",
+    "coverageLimit": "공식 소개 페이지 회사명·채용 연락처와 협회 게시 기업 일치. 공지 목록은 접근 검증 화면으로 직접 확인 제한."
+  },
+  {
+    "id": "plusasset",
+    "name": "플러스자산운용",
+    "url": "http://www.plusasset.com/",
+    "adapter": "public",
+    "country": "KR",
+    "enabled": true,
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42894",
+    "coverageLimit": "공식 회사 홈페이지 연결 확인. 동적 화면으로 채용 목록 본문 미확인; 협회 기업 게시 원문 병행."
+  },
+  {
+    "id": "prophetasset",
+    "name": "프라핏자산운용",
+    "url": "http://prophet-asset.com/notice01.php",
+    "adapter": "public",
+    "country": "KR",
+    "enabled": true,
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42851",
+    "coverageLimit": "공식 홈페이지 프라핏 소식 링크 및 회사 주소 대조. 공개 소식 목록 확인, 전체 채용 전용 목록은 아님."
+  },
+  {
+    "id": "bnkasset",
+    "name": "BNK자산운용",
+    "url": "https://www.bnkasset.co.kr/customer/notice.aspx",
+    "adapter": "public",
+    "country": "KR",
+    "enabled": true,
+    "verifiedFrom": "https://www.kofia.or.kr/brd/m_96/view.do?seq=42891",
+    "coverageLimit": "기업 채용 원문에서 연결한 공식 공지 목록 확인. 채용 외 공지도 포함; 협회 병행."
   }
 ]
